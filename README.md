@@ -31,7 +31,7 @@
 
 <tr>
     <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-php.md">graphql-php</td>
-    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-php.md#Validations">38</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-php.md#Validations">37</a></td>
     <td align="center">✅</td>
     <td align="center">⚠️</td>
     <td align="center">⚠️</td>

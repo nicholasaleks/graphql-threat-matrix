@@ -18,7 +18,7 @@ GraphQL PHP provides the following features which should be taken into considera
 | :white_check_mark: <small>(Enabled by Default)</small> | :warning: Disabled by Default | :warning: Disabled by Default | :x: No Support | :white_check_mark: Enabled by Default | :x: No Support | :white_check_mark: Enabled by Default   |
 
 ## Validations
-Total Validation Count: **38**
+Total Validation Count: **37**
 
 GraphQL Ruby validates the following checks when a query is sent:
 
@@ -82,7 +82,7 @@ GraphQL Ruby validates the following checks when a query is sent:
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
 		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/UniqueInputFieldNames.php">Unique Input Field Names</a></td>
-		<td><a href=""></a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/ProvidedRequiredArgumentsOnDirectives.php">Provided Required Arguments On Directives</a></td>
 		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/PossibleFragmentSpreads.php">Possible Fragment Spreads</a></td>
 		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/UniqueTypeNames.php">Unique Type Names</a></td>
 		<td><a href=""></a></td>
