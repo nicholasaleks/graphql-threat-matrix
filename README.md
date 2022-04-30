@@ -10,7 +10,7 @@
 <table>
 
 <tr>
-    <td></td>
+    <td>Implementation</td>
     <td>Validations</td>
     <td>Field Suggestions</td>
     <td>Query Depth limit</td>
