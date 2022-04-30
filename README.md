@@ -15,7 +15,7 @@
 </tr>
 
 <tr>
-    <td></td>
+    <td><div style="width:300px"></div></td>
     <td>Validations</td>
     <td>Field Suggestions</td>
     <td>Query Depth limit</td>
