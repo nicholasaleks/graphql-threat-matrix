@@ -1,8 +1,8 @@
 # graphql-ruby
 
-### Contents
+### Table of Contents
 * [About](#About)
-* [Security Features](#Security-Features)
+* [Security Considerations](#Security-Considerations)
 * [Validations](#Validations)
 
 ## About
@@ -10,12 +10,12 @@ Language: [Ruby](https://www.ruby-lang.org/en/)\
 Source: [https://github.com/rmosolgo/graphql-ruby](https://github.com/rmosolgo/graphql-ruby)\
 Documentation: [https://graphql-ruby.org/](https://graphql-ruby.org/)
 
-## Security Features
-GraphQL Ruby provides the following security features:
+## Security Considerations
+GraphQL Ruby provides the following features which should be taken into consideration:
 
 | Field Suggestions | Query Depth Limit | Query Cost Analysis | Automatic Persisted Queries | Introspection      | Debug Mode | Batch Requests  |
 |-------------------|-------------------|---------------------|-----------------------------|--------------------|------------|-----------------|
-| :white_check_mark: On by Default     | :x: No Support        | :warning: Off by Default      | :warning: Off by Default              | :white_check_mark: Enabled by Default | :x: No Support | :white_check_mark: On by Default   |
+| :white_check_mark: <small>(Enabled by Default)</small>     | :x: No Support        | :warning: Disabled by Default      | :warning: Disabled by Default              | :white_check_mark: Enabled by Default | :x: No Support | :white_check_mark: Enabled by Default   |
 
 
 ## Validations
