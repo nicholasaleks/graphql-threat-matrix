@@ -9,9 +9,9 @@
 
 
 <p align="right">
-<b>Legend</b>
-✅ = Enabled by Default
-⚠️ = Disabled by Default
+<b>Legend</b><br>
+✅ = Enabled by Default<br>
+⚠️ = Disabled by Default<br>
 ❌ = Not Supported
 </p>
 
