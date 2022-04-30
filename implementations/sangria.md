@@ -53,69 +53,69 @@ GraphQL Ruby validates the following checks when a query is sent:
 		<th>Misc. Validations</th>
 	</tr>
 	<tr>
-		<td><a href="">Executable Definitions</a></td>
-		<td><a href="">Lone Anonymous Operation</a></td>
-		<td><a href="">Fields On Correct Type</a></td>
-		<td><a href="">Known Argument Names</a></td>
-		<td><a href="">Fragments On Composite Types</a></td>
-		<td><a href="">Known Type Names</a></td>
-		<td><a href="">Known Directives</a></td>
-		<td><a href="">Input Document Non Conflicting Variable Inference</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/ExecutableDefinitions.scala">Executable Definitions</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/LoneAnonymousOperation.scala">Lone Anonymous Operation</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/FieldsOnCorrectType.scala">Fields On Correct Type</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/KnownArgumentNames.scala">Known Argument Names</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/FragmentsOnCompositeTypes.scala">Fragments On Composite Types</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/KnownTypeNames.scala">Known Type Names</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/KnownDirectives.scala">Known Directives</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/InputDocumentNonConflictingVariableInference.scala">Input Document Non Conflicting Variable Inference</a></td>
 		<td><a href=""></a></td>
 	</tr>
 	<tr>
 		<td><a href=""></a></td>
-		<td><a href="">Unique Operation Names</a></td>
-		<td><a href="">Overlapping Fields Can Be Merged</a></td>
-		<td><a href="">Provided Required Arguments</a></td>
-		<td><a href="">Known Fragment Names</a></td>
-		<td><a href="">Values Of Correct Type</a></td>
-		<td><a href="">Unique Directives Per Location</a></td>
-		<td><a href="">No Undefined Variables</a></td>
-		<td><a href=""></a></td>
-	</tr>
-	<tr>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href="">Scalar Leafs</a></td>
-		<td><a href="">Unique Argument Names</a></td>
-		<td><a href="">No Fragment Cycles</a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href="">No Unused Variables</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/UniqueOperationNames.scala">Unique Operation Names</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/OverlappingFieldsCanBeMerged.scala">Overlapping Fields Can Be Merged</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/ProvidedRequiredArguments.scala">Provided Required Arguments</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/KnownFragmentNames.scala">Known Fragment Names</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/ValuesOfCorrectType.scala">Values Of Correct Type</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/UniqueDirectivesPerLocation.scala">Unique Directives Per Location</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/NoUndefinedVariables.scala">No Undefined Variables</a></td>
 		<td><a href=""></a></td>
 	</tr>
 	<tr>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
-		<td><a href="">Single Field Subscriptions</a></td>
-		<td><a href=""></a></td>
-		<td><a href="">No Unused Fragments</a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href="">Unique Variable Names</a></td>
-		<td><a href=""></a></td>
-	</tr>
-	<tr>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/ScalarLeafs.scala">Scalar Leafs</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/UniqueArgumentNames.scala">Unique Argument Names</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/NoFragmentCycles.scala">No Fragment Cycles</a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
-		<td><a href="">Unique Input Field Names</a></td>
-		<td><a href=""></a></td>
-		<td><a href="">Possible Fragment Spreads</a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href="">Variables Are Input Types</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/NoUnusedVariables.scala">No Unused Variables</a></td>
 		<td><a href=""></a></td>
 	</tr>
 	<tr>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/SingleFieldSubscriptions.scala">Single Field Subscriptions</a></td>
+		<td><a href=""></a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/NoUnusedFragments.scala">No Unused Fragments</a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
-		<td><a href="">Unique Fragment Names</a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/UniqueVariableNames.scala">Unique Variable Names</a></td>
+		<td><a href=""></a></td>
+	</tr>
+	<tr>
+		<td><a href=""></a></td>
+		<td><a href=""></a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/UniqueInputFieldNames.scala">Unique Input Field Names</a></td>
+		<td><a href=""></a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/PossibleFragmentSpreads.scala">Possible Fragment Spreads</a></td>
+		<td><a href=""></a></td>
+		<td><a href=""></a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/VariablesAreInputTypes.scala">Variables Are Input Types</a></td>
+		<td><a href=""></a></td>
+	</tr>
+	<tr>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
-		<td><a href="">Variables In Allowed Position</a></td>
+		<td><a href=""></a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/UniqueFragmentNames.scala">Unique Fragment Names</a></td>
+		<td><a href=""></a></td>
+		<td><a href=""></a></td>
+		<td><a href="https://github.com/sangria-graphql/sangria/blob/main/modules/core/src/main/scala/sangria/validation/rules/VariablesInAllowedPosition.scala">Variables In Allowed Position</a></td>
+		<td><a href=""></a></td>
 	</tr>
 </table>
