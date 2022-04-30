@@ -75,7 +75,6 @@
     <td align="center">
 
 [✅](# "Default On")
-
     </td>
     <td align="center">❌</td>
     <td align="center">❌</td>
