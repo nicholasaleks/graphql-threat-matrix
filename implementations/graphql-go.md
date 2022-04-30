@@ -52,64 +52,64 @@ GraphQL Ruby validates the following checks when a query is sent:
 		<th>Misc. Validations</th>
 	</tr>
 	<tr>
+		<td><a href="">Possible Types</a></td>
+		<td><a href=""></a></td>
+		<td><a href="">Validate Selection Set</a></td>
+		<td><a href="">Arguments Conflict</a></td>
+		<td><a href="">Mark Used Fragments</a></td>
+		<td><a href="">Validate Value</a></td>
+		<td><a href="">Validate Directives</a></td>
+		<td><a href="">Can Be Input</a></td>
+		<td><a href="">Validate Max Depth</a></td>
+	</tr>
+	<tr>
+		<td><a href="">Validate Name</a></td>
+		<td><a href=""></a></td>
+		<td><a href="">Validate Selections</a></td>
+		<td><a href="">Validate Argument Types</a></td>
+		<td><a href="">Detect Fragment Cycle</a></td>
+		<td><a href="">Validate Value Type</a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
+		<td><a href="">Validate Literal</a></td>
 	</tr>
 	<tr>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
+		<td><a href="">Validate Overlap</a></td>
+		<td><a href="">Validate Argument Literals</a></td>
+		<td><a href="">Detect Fragment Cycle Selection Set</a></td>
+		<td><a href="">Types Compatible</a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
+		<td><a href="">Validate Basic Lit</a></td>
 	</tr>
 	<tr>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
+		<td><a href="">Validate Field Overlap</a></td>
+		<td><a href="">Can Be Fragment</a></td>
+		<td><a href=""></a></td>
+		<td><a href="">Types Can Be Used As</a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
+		<td><a href="">Validate Builtin Scalar</a></td>
 	</tr>
 	<tr>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
+		<td><a href="">Has Subfields</a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
+		<td><a href="">Is Null</a></td>
 	</tr>
 	<tr>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-	</tr>
-	<tr>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
+		<td><a href="">Is Leaf</a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
