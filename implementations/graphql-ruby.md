@@ -3,7 +3,7 @@
 ### Table of Contents
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
-* [Validations](#Validations)
+* [Request Validations](#Request-Validations)
 
 ## About
 Language: [Ruby](https://www.ruby-lang.org/en/)\
@@ -13,9 +13,26 @@ Documentation: [https://graphql-ruby.org/](https://graphql-ruby.org/)
 ## Security Considerations
 GraphQL Ruby provides the following features which should be taken into consideration:
 
-| Field Suggestions | Query Depth Limit | Query Cost Analysis | Automatic Persisted Queries | Introspection      | Debug Mode | Batch Requests  |
-|-------------------|-------------------|---------------------|-----------------------------|--------------------|------------|-----------------|
-| :white_check_mark: <small>(Enabled by Default)</small>     | :x: No Support        | :warning: Disabled by Default      | :warning: Disabled by Default              | :white_check_mark: Enabled by Default | :x: No Support | :white_check_mark: Enabled by Default   |
+<table>
+	<tr>
+		<th align="center">Field Suggestions</th>
+		<th align="center">Query Depth Limit</th>
+		<th align="center">Query Cost Analysis</th>
+		<th align="center">Automatic Persisted Queries</th>
+		<th align="center">Introspection</th>
+		<th align="center">Debug Mode</th>
+		<th align="center">Batch Requests</th>
+	</tr>
+	<tr>
+		<td align="center">✅<br>Enabled by Default</td>
+		<td align="center">❌<br>No Support</td>
+		<td align="center">⚠️<br>Disabled by Default</td>
+		<td align="center">⚠️<br>Disabled by Default</td>
+		<td align="center">✅<br>Enabled by Default</td>
+		<td align="center">❌<br>No Support</td>
+		<td align="center">✅<br>Enabled by Default</td>
+	</tr>
+</table>
 
 
 ## Validations
