@@ -35,124 +35,69 @@ GraphQL Ruby validates the following checks when a query is sent:
 		<th>Misc. Validations</th>
 	</tr>
 	<tr>
-		<td>Executable Definitions</td>
-		<td>Lone Anonymous Operation</td>
-		<td>Fields on Correct Type</td>
-		<td>Known Argument Names</td>
-		<td>Fragments On Composite Types</td>
-		<td>Known Type Names</td>
-		<td>Known Directives</td>
-		<td>No Undefined Variables</td>
-		<td>Query Complexity</td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/ExecutableDefinitions.php">Executable Definitions</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/LoneAnonymousOperation.php">Lone Anonymous Operation</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/FieldsOnCorrectType.php">Fields on Correct Type</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/KnownArgumentNames.php">Known Argument Names</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/FragmentsOnCompositeTypes.php">Fragments On Composite Types</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/KnownTypeNames.php">Known Type Names</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/KnownDirectives.php">Known Directives</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/NoUndefinedVariables.php">No Undefined Variables</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/QueryComplexity.php">Query Complexity</a></td>
 	</tr>
 	<tr>
-		<td>Lone Schema Definition</td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td>Query Depth</td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/LoneSchemaDefinition.php">Lone Schema Definition</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/UniqueOperationNames.php">Unique Operation Names</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/OverlappingFieldsCanBeMerged.php">Overlapping Fields Can Be Merged</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/KnownArgumentNamesOnDirectives.php">Known Argument Names On Directives</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/KnownFragmentNames.php">Known Fragment Names</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/PossibleTypeExtensions.php">Possible Type Extensions</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/UniqueDirectiveNames.php">Unique Directive Names</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/NoUnusedVariables.php">No Unused Variables</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/QueryDepth.php">Query Depth</a></td>
 	</tr>
 	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td><a href=""></a></td>
+		<td><a href=""></a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/ScalarLeafs.php">Scalar Leafs</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/ProvidedRequiredArguments.php">Provided Required Arguments</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/NoFragmentCycles.php">No Fragment Cycles</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/UniqueEnumValueNames.php">Unique Enum Value Names</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/UniqueDirectivesPerLocation.php">Unique Directives Per Location</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/UniqueVariableNames.php">Unique Variable Names</a></td>
+		<td><a href=""></a></td>
 	</tr>
 	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td><a href=""></a></td>
+		<td><a href=""></a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/SingleFieldSubscription.php">Single Field Subscription</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/UniqueArgumentNames.php">Unique Argument Names</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/NoUnusedFragments.php">No Unused Fragments</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/UniqueOperationTypes.php">Unique Operation Types</a></td>
+		<td><a href=""></a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/VariablesAreInputTypes.php">Variables Are Input Types</a></td>
+		<td><a href=""></a></td>
 	</tr>
 	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td><a href=""></a></td>
+		<td><a href=""></a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/UniqueInputFieldNames.php">Unique Input Field Names</a></td>
+		<td><a href=""></a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/PossibleFragmentSpreads.php">Possible Fragment Spreads</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/UniqueTypeNames.php">Unique Type Names</a></td>
+		<td><a href=""></a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/VariablesInAllowedPosition.php">Variables In Allowed Position</a></td>
+		<td><a href=""></a></td>
 	</tr>
 	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td><a href=""></a></td>
+		<td><a href=""></a></td>
+		<td><a href=""></a></td>
+		<td><a href=""></a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/UniqueFragmentNames.php">Unique Fragment Names</a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/ValuesOfCorrectType.php">Values Of Correct Type</a></td>
+		<td><a href=""></a></td>
+		<td><a href=""></a></td>
+		<td><a href=""></a></td>
 	</tr>
 </table>
