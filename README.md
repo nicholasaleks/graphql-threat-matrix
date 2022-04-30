@@ -7,6 +7,14 @@
  GraphQL Threat Matrix
 </h1>
 
+
+<p align="right">
+<b>Legend</b>
+✅ = Enabled by Default
+⚠️ = Disabled by Default
+❌ = Not Supported
+</p>
+
 <table>
 
 <tr>
@@ -72,10 +80,7 @@
 <tr>
     <td>graphql-go</td>
     <td align="center">26</td>
-    <td align="center">
-
-[✅](# "Default On")
-    </td>
+    <td align="center">✅</td>
     <td align="center">❌</td>
     <td align="center">❌</td>
     <td align="center">❌</td>
