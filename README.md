@@ -67,7 +67,7 @@
 
 <tr>
     <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/sangria.md">Sangria</a></td>
-    <td align="center">27</td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/sangria.md#Request-Validations">27</a></td>
     <td align="center">✅</td>
     <td align="center">⚠️</td>
     <td align="center">⚠️</td>
