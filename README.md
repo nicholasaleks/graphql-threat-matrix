@@ -22,7 +22,7 @@
 </tr>
 
 <tr>
-    <td>graphql-php &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td>`graphql-php`</td>
     <td></td>
     <td></td>
     <td></td>
