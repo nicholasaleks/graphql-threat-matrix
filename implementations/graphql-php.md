@@ -8,7 +8,7 @@
 ## About
 Language: [php](https://www.php.net/)\
 Source: [https://github.com/webonyx/graphql-php](https://github.com/webonyx/graphql-php)\
-Documentation: [https://webonyx.github.io/graphql-php/](https://webonyx.github.io/graphql-php/)\
+Documentation: [https://webonyx.github.io/graphql-php/](https://webonyx.github.io/graphql-php/)
 
 ## Security Features
 GraphQL PHP provides the following features which should be taken into consideration:
