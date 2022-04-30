@@ -13,9 +13,26 @@ Documentation: [https://webonyx.github.io/graphql-php/](https://webonyx.github.i
 ## Security Features
 GraphQL PHP provides the following features which should be taken into consideration:
 
-| Field Suggestions | Query Depth Limit | Query Cost Analysis | Automatic Persisted Queries | Introspection      | Debug Mode | Batch Requests  |
-|-------------------|-------------------|---------------------|-----------------------------|--------------------|------------|-----------------|
-| :white_check_mark: <small>(Enabled by Default)</small> | :warning: Disabled by Default | :warning: Disabled by Default | :x: No Support | :white_check_mark: Enabled by Default | :x: No Support | :white_check_mark: Enabled by Default   |
+<table>
+	<tr>
+		<th align="center">Field Suggestions</th>
+		<th align="center">Query Depth Limit</th>
+		<th align="center">Query Cost Analysis</th>
+		<th align="center">Automatic Persisted Queries</th>
+		<th align="center">Introspection</th>
+		<th align="center">Debug Mode</th>
+		<th align="center">Batch Requests</th>
+	</tr>
+	<tr>
+		<td align="center">✅<br>Enabled by Default</td>
+		<td align="center">⚠️<br>Disabled by Default</td>
+		<td align="center">⚠️<br>Disabled by Default</td>
+		<td align="center">❌<br>No Support</td>
+		<td align="center">✅<br>Enabled by Default</td>
+		<td align="center">⚠️<br>Disabled by Default</td>
+		<td align="center">⚠️<br>Disabled by Default</td>
+	</tr>
+</table>
 
 ## Validations
 Total Validation Count: **37**
