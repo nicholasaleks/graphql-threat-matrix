@@ -65,7 +65,7 @@ GraphQL Ruby validates the following checks when a query is sent:
 		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/UniqueEnumValueNames.php">Unique Enum Value Names</a></td>
 		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/UniqueDirectivesPerLocation.php">Unique Directives Per Location</a></td>
 		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/UniqueVariableNames.php">Unique Variable Names</a></td>
-		<td><a href=""></a></td>
+		<td><a href="https://github.com/webonyx/graphql-php/blob/master/src/Validator/Rules/DisableIntrospection.php">Disable Introspection</a></td>
 	</tr>
 	<tr>
 		<td><a href=""></a></td>
