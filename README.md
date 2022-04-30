@@ -11,11 +11,14 @@
 
 <tr>
     <td></td>
-    <td colspan=8 align="center">Security Considerations</td>
+    <td></td>
+    <td></td>
+    <td colspan=7 align="center">Security Considerations</td>
 </tr>
 
 <tr>
-    <td><div style="width:300px"></div></td>
+    <td></td>
+    <td></td>
     <td>Validations</td>
     <td>Field Suggestions</td>
     <td>Query Depth limit</td>
@@ -27,7 +30,7 @@
 </tr>
 
 <tr>
-    <td>graphql-php</td>
+    <td colspan=2>graphql-php</td>
     <td></td>
     <td></td>
     <td></td>
@@ -39,7 +42,7 @@
 </tr>
 
 <tr>
-    <td>graphql-js</td>
+    <td colspan=2>graphql-js</td>
     <td></td>
     <td></td>
     <td></td>
@@ -51,7 +54,7 @@
 </tr>
 
 <tr>
-    <td>graphql-ruby</td>
+    <td colspan=2>graphql-ruby</td>
     <td></td>
     <td></td>
     <td></td>
@@ -63,7 +66,7 @@
 </tr>
 
 <tr>
-    <td>Sangria</td>
+    <td colspan=2>Sangria</td>
     <td></td>
     <td></td>
     <td></td>
@@ -75,7 +78,7 @@
 </tr>
 
 <tr>
-    <td>graphql-go</td>
+    <td colspan=2>graphql-go</td>
     <td></td>
     <td></td>
     <td></td>
@@ -87,7 +90,7 @@
 </tr>
 
 <tr>
-    <td>Tartiflette</td>
+    <td colspan=2>Tartiflette</td>
     <td></td>
     <td></td>
     <td></td>
@@ -99,7 +102,7 @@
 </tr>
 
 <tr>
-    <td>graphql-java</td>
+    <td colspan=2>graphql-java</td>
     <td></td>
     <td></td>
     <td></td>
@@ -111,7 +114,7 @@
 </tr>
 
 <tr>
-    <td>gqlgen</td>
+    <td colspan=2>gqlgen</td>
     <td></td>
     <td></td>
     <td></td>
@@ -123,7 +126,7 @@
 </tr>
 
 <tr>
-    <td>graphql-core</td>
+    <td colspan=2>graphql-core</td>
     <td></td>
     <td></td>
     <td></td>
@@ -135,7 +138,7 @@
 </tr>
 
 <tr>
-    <td>graphql-rust</td>
+    <td colspan=2>graphql-rust</td>
     <td></td>
     <td></td>
     <td></td>
@@ -147,7 +150,7 @@
 </tr>
 
 <tr>
-    <td>Diana.jl</td>
+    <td colspan=2>Diana.jl</td>
     <td></td>
     <td></td>
     <td></td>
