@@ -8,11 +8,11 @@
 </h1>
 
 
-<p align="right">
+<p>
 <b>Legend</b><br>
-✅ = Enabled by Default<br>
-⚠️ = Disabled by Default<br>
-❌ = Not Supported
+✅ &nbsp;- Enabled by Default<br>
+⚠️ &nbsp;- Disabled by Default<br>
+❌ &nbsp;- Not Supported
 </p>
 
 <table>
