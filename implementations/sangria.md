@@ -8,7 +8,7 @@
 ## About
 Language: [Scala](https://www.scala-lang.org/)\
 Source: [https://github.com/sangria-graphql/sangria](https://github.com/sangria-graphql/sangria)\
-Documentation: [https://sangria-graphql.github.io/learn/](https://sangria-graphql.github.io/learn/)\
+Documentation: [https://sangria-graphql.github.io/learn/](https://sangria-graphql.github.io/learn/)
 
 ## Security Considerations
 GraphQL Sangria provides the following features which should be taken into consideration:

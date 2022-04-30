@@ -8,7 +8,7 @@
 ## About
 Language: [php](https://www.php.net/)\
 Source: []()\
-Documentation: []()\
+Documentation: []()
 
 ## Security Considerations
 GraphQL PHP provides the following features which should be taken into consideration:
