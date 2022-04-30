@@ -53,14 +53,58 @@ GraphQL Ruby validates the following checks when a query is sent:
 		<th>Misc. Validations</th>
 	</tr>
 	<tr>
+		<td><a href="">Executable Definitions</a></td>
+		<td><a href="">Lone Anonymous Operation</a></td>
+		<td><a href="">Fields On Correct Type</a></td>
+		<td><a href="">Known Argument Names</a></td>
+		<td><a href="">Fragments On Composite Types</a></td>
+		<td><a href="">Known Type Names</a></td>
+		<td><a href="">Known Directives</a></td>
+		<td><a href="">Input Document Non Conflicting Variable Inference</a></td>
+		<td><a href=""></a></td>
+	</tr>
+	<tr>
+		<td><a href=""></a></td>
+		<td><a href="">Unique Operation Names</a></td>
+		<td><a href="">Overlapping Fields Can Be Merged</a></td>
+		<td><a href="">Provided Required Arguments</a></td>
+		<td><a href="">Known Fragment Names</a></td>
+		<td><a href="">Values Of Correct Type</a></td>
+		<td><a href="">Unique Directives Per Location</a></td>
+		<td><a href="">No Undefined Variables</a></td>
+		<td><a href=""></a></td>
+	</tr>
+	<tr>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
+		<td><a href="">Scalar Leafs</a></td>
+		<td><a href="">Unique Argument Names</a></td>
+		<td><a href="">No Fragment Cycles</a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
+		<td><a href="">No Unused Variables</a></td>
+		<td><a href=""></a></td>
+	</tr>
+	<tr>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
+		<td><a href="">Single Field Subscriptions</a></td>
+		<td><a href=""></a></td>
+		<td><a href="">No Unused Fragments</a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
+		<td><a href="">Unique Variable Names</a></td>
+		<td><a href=""></a></td>
+	</tr>
+	<tr>
+		<td><a href=""></a></td>
+		<td><a href=""></a></td>
+		<td><a href="">Unique Input Field Names</a></td>
+		<td><a href=""></a></td>
+		<td><a href="">Possible Fragment Spreads</a></td>
+		<td><a href=""></a></td>
+		<td><a href=""></a></td>
+		<td><a href="">Variables Are Input Types</a></td>
 		<td><a href=""></a></td>
 	</tr>
 	<tr>
@@ -68,54 +112,10 @@ GraphQL Ruby validates the following checks when a query is sent:
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
+		<td><a href="">Unique Fragment Names</a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-	</tr>
-	<tr>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-	</tr>
-	<tr>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-	</tr>
-	<tr>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-	</tr>
-	<tr>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
+		<td><a href="">Variables In Allowed Position</a></td>
 	</tr>
 </table>
