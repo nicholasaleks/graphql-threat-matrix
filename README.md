@@ -18,15 +18,15 @@
 <table>
 
 <tr>
-    <td>Implementation</td>
-    <td>Validations</td>
-    <td>Field Suggestions</td>
-    <td>Query Depth limit</td>
-    <td>Query Cost Analysis</td>
-    <td>Automatic Persisted Queries</td>
-    <td>Introspection</td>
-    <td>Debug Mode</td>
-    <td>Batch Requests</td>
+    <th>Implementation</th>
+    <th>Validations</th>
+    <th>Field Suggestions</th>
+    <th>Query Depth limit</th>
+    <th>Query Cost Analysis</th>
+    <th>Automatic Persisted Queries</th>
+    <th>Introspection</th>
+    <th>Debug Mode</th>
+    <th>Batch Requests</th>
 </tr>
 
 <tr>
