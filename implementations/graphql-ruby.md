@@ -35,7 +35,7 @@ GraphQL Ruby provides the following features which should be taken into consider
 </table>
 
 
-## Validations
+## Request Validations
 
 Total Validation Count: **28**
 
