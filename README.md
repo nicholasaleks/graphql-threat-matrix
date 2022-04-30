@@ -7,3 +7,22 @@
  GraphQL Threat Matrix
 </h1>
 
+<table>
+
+<tr>
+    <td></td>
+    <td colspan=8>Security Considerations</td>
+</tr>
+<tr>
+    <td></td>
+    <td>Validations</td>
+    <td>Field Suggestions</td>
+    <td>Query Depth limit</td>
+    <td>Query Cost Analysis</td>
+    <td>Automatic Persisted Queries</td>
+    <td>Introspection</td>
+    <td>Debug Mode</td>
+    <td>Batch Requests</td>
+</tr>
+
+</table>
