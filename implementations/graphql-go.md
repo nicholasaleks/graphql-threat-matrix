@@ -1,4 +1,4 @@
-# graphql-php
+# graphql-go
 
 ### Table of Contents
 * [About](#About)
@@ -6,12 +6,12 @@
 * [Request-Validations](#Request-Validations)
 
 ## About
-Language: [php](https://www.php.net/)\
-Source: []()\
-Documentation: []()\
+Language: [go](https://go.dev/)\
+Source: [https://github.com/graphql-go/graphql](https://github.com/graphql-go/graphql)\
+Documentation: [https://pkg.go.dev/github.com/graphql-go/graphql](https://pkg.go.dev/github.com/graphql-go/graphql)
 
 ## Security Considerations
-GraphQL PHP provides the following features which should be taken into consideration:
+GraphQL Go provides the following features which should be taken into consideration:
 
 <table>
 	<tr>
@@ -25,23 +25,19 @@ GraphQL PHP provides the following features which should be taken into considera
 	</tr>
 	<tr>
 		<td align="center">✅<br>Enabled by Default</td>
-		<td align="center">⚠️<br>Disabled by Default</td>
-		<td align="center">⚠️<br>Disabled by Default</td>
+		<td align="center">❌<br>No Support</td>
+		<td align="center">❌<br>No Support</td>
 		<td align="center">❌<br>No Support</td>
 		<td align="center">✅<br>Enabled by Default</td>
-		<td align="center">❌<br>No Support</td>
 		<td align="center">⚠️<br>Disabled by Default</td>
+		<td align="center">❌<br>No Support</td>
 	</tr>
 </table>
 
 ## Request Validations
-Total Validation Count: **XXX**
+Total Validation Count: **26**
 
 GraphQL Ruby validates the following checks when a query is sent:
-
-| [Document Validations](https://spec.graphql.org/October2021/#sec-Documents) | [Operation Validations](https://spec.graphql.org/October2021/#sec-Validation.Operations) | [Field Validations](https://spec.graphql.org/October2021/#sec-Validation.Fields) | [Argument Validations](https://spec.graphql.org/October2021/#sec-Validation.Arguments) | [Fragment Validations](https://spec.graphql.org/October2021/#sec-Validation.Fragments)      | [Value/Type Validations](https://spec.graphql.org/October2021/#sec-Values) | [Directive Validations](https://spec.graphql.org/October2021/#sec-Validation.Directives)  | [Variable Validations](https://spec.graphql.org/October2021/#sec-Validation.Variables) | Misc. Validations |
-|----------------------|-----------------------|-------------------|----------------------|---------------------------|--------------------------|------------------------|----------------------|-------------------|
-
 
 <table>
 	<tr>

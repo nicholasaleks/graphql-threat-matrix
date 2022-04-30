@@ -37,7 +37,7 @@ GraphQL PHP provides the following features which should be taken into considera
 ## Request Validations
 Total Validation Count: **37**
 
-GraphQL Ruby validates the following checks when a query is sent:
+GraphQL PHP validates the following checks when a query is sent:
 
 <table>
 	<tr>

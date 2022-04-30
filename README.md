@@ -78,8 +78,8 @@
 </tr>
 
 <tr>
-    <td>graphql-go</td>
-    <td align="center">26</td>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-go.md">graphql-go</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-go.md#Request-Validations">26</a></td>
     <td align="center">✅</td>
     <td align="center">❌</td>
     <td align="center">❌</td>

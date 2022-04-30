@@ -11,7 +11,7 @@ Source: [https://github.com/sangria-graphql/sangria](https://github.com/sangria-
 Documentation: [https://sangria-graphql.github.io/learn/](https://sangria-graphql.github.io/learn/)\
 
 ## Security Considerations
-GraphQL PHP provides the following features which should be taken into consideration:
+GraphQL Sangria provides the following features which should be taken into consideration:
 
 <table>
 	<tr>
@@ -38,7 +38,7 @@ GraphQL PHP provides the following features which should be taken into considera
 ## Request Validations
 Total Validation Count: **27**
 
-GraphQL Ruby validates the following checks when a query is sent:
+GraphQL Sangria validates the following checks when a query is sent:
 
 <table>
 	<tr>
