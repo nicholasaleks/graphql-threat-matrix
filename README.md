@@ -73,7 +73,9 @@
     <td>graphql-go</td>
     <td align="center">26</td>
     <td align="center">
+
 [✅](# "Default On")
+
     </td>
     <td align="center">❌</td>
     <td align="center">❌</td>
