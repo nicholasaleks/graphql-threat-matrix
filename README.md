@@ -46,9 +46,8 @@
 </tr>
 
 <tr>
-    <td>graphql-ruby</td>
-    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-ruby.md">graphql-php</td>
-    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-ruby.md#Validations">38</a></td>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-ruby.md">graphql-ruby</td>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-ruby.md#Validations">28</a></td>
     <td>✅</td>
     <td>❌</td>
     <td>⚠️</td>
