@@ -2,15 +2,15 @@
 
 ### Table of Contents
 * [About](#About)
-* [Security Features](#Security-Features)
-* [Validations](#Validations)
+* [Security Considerations](#Security-Considerations)
+* [Request Validations](#Request-Validations)
 
 ## About
 Language: [Scala](https://www.scala-lang.org/)\
 Source: [https://github.com/sangria-graphql/sangria](https://github.com/sangria-graphql/sangria)\
 Documentation: [https://sangria-graphql.github.io/learn/](https://sangria-graphql.github.io/learn/)\
 
-## Security Features
+## Security Considerations
 GraphQL PHP provides the following features which should be taken into consideration:
 
 <table>
@@ -35,7 +35,7 @@ GraphQL PHP provides the following features which should be taken into considera
 </table>
 
 
-## Validations
+## Request Validations
 Total Validation Count: **27**
 
 GraphQL Ruby validates the following checks when a query is sent:

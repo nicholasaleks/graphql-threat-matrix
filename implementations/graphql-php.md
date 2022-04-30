@@ -3,7 +3,7 @@
 ### Table of Contents
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
-* [Validations](#Validations)
+* [Request Validations](#Request-Validations)
 
 ## About
 Language: [php](https://www.php.net/)\
@@ -34,7 +34,7 @@ GraphQL PHP provides the following features which should be taken into considera
 	</tr>
 </table>
 
-## Validations
+## Request Validations
 Total Validation Count: **37**
 
 GraphQL Ruby validates the following checks when a query is sent:
