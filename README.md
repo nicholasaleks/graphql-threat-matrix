@@ -12,7 +12,7 @@
 <b>Legend</b><br>
 ✅ &nbsp;- Enabled by Default<br>
 ⚠️ &nbsp;- Disabled by Default<br>
-❌ &nbsp;- Not Supported
+❌ &nbsp;- No Support
 </p>
 
 <table>
@@ -66,7 +66,7 @@
 </tr>
 
 <tr>
-    <td>Sangria</td>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/sangria.md">Sangria</a></td>
     <td align="center">27</td>
     <td align="center">✅</td>
     <td align="center">⚠️</td>
