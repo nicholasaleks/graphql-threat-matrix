@@ -83,7 +83,7 @@ graphene is based on [graphql-core](https://github.com/graphql-python/graphql-co
 		<td><a href="https://github.com/graphql-python/graphql-core/blob/main/src/graphql/validation/rules/unique_argument_definition_names.py">Unique Argument Definition Names</a></td>
 		<td><a href="https://github.com/graphql-python/graphql-core/blob/main/src/graphql/validation/rules/no_fragment_cycles.py">No Fragment Cycles</a></td>
 		<td><a href="https://github.com/graphql-python/graphql-core/blob/main/src/graphql/validation/rules/unique_enum_value_names.py">Unique Enum Value Names</a></td>
-		<td><a href=""></a></td>
+		<td><a href="https://github.com/graphql-python/graphql-core/blob/main/src/graphql/validation/rules/unique_directives_per_location.py">Unique Directives Per Location</a></td>
 		<td><a href="https://github.com/graphql-python/graphql-core/blob/main/src/graphql/validation/rules/unique_variable_names.py">Unique Variable Names</a></td>
 		<td><a href=""></a></td>
 	</tr>
@@ -94,7 +94,7 @@ graphene is based on [graphql-core](https://github.com/graphql-python/graphql-co
 		<td><a href="https://github.com/graphql-python/graphql-core/blob/main/src/graphql/validation/rules/unique_argument_names.py">Unique Argument Names</a></td>
 		<td><a href="https://github.com/graphql-python/graphql-core/blob/main/src/graphql/validation/rules/no_unused_fragments.py">No Unused Fragments</a></td>
 		<td><a href="https://github.com/graphql-python/graphql-core/blob/main/src/graphql/validation/rules/unique_operation_types.py">Unique Operation Types</a></td>
-		<td><a href="https://github.com/graphql-python/graphql-core/blob/main/src/graphql/validation/rules/unique_directives_per_location.py">Unique Directives Per Location</a></td>
+		<td><a href=""></a></td>
 		<td><a href="https://github.com/graphql-python/graphql-core/blob/main/src/graphql/validation/rules/variables_are_input_types.py">Variables Are Input Types</a></td>
 		<td><a href=""></a></td>
 	</tr>
