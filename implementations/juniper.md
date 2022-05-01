@@ -24,9 +24,9 @@ juniper provides the following features which should be taken into consideration
 		<th align="center">Batch Requests</th>
 	</tr>
 	<tr>
-		<td align="center">✅<br>Enabled by Default</td>
-		<td align="center">⚠️<br>Disabled by Default</td>
-		<td align="center">⚠️<br>Disabled by Default</td>
+		<td align="center">❌<br>No Support</td>
+		<td align="center">❌<br>No Support</td>
+		<td align="center">❌<br>No Support</td>
 		<td align="center">❌<br>No Support</td>
 		<td align="center">✅<br>Enabled by Default</td>
 		<td align="center">❌<br>No Support</td>
@@ -35,7 +35,7 @@ juniper provides the following features which should be taken into consideration
 </table>
 
 ## Request Validations
-Total Validation Count: **XXX**
+Total Validation Count: **24**
 
 juniper validates the following checks when a query is sent:
 
