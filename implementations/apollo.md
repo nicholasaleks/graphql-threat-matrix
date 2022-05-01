@@ -25,12 +25,12 @@ Apollo provides the following features which should be taken into consideration:
 	</tr>
 	<tr>
 		<td align="center">✅<br>Enabled by Default</td>
-		<td align="center">⚠️<br>Disabled by Default</td>
-		<td align="center">⚠️<br>Disabled by Default</td>
+		<td align="center">⚠️<br>Disabled by Default (Supported via External Libraries)</td>
+		<td align="center">⚠️<br>Disabled by Default (Supported via External Libraries)</td>
 		<td align="center">❌<br>No Support</td>
+		<td align="center">✅<br>Enabled if NODE_ENV is not set to 'production' </td>
+		<td align="center">✅<br>exception.stacktrace exists if NODE_ENV is not set to 'production' or 'test' </td>
 		<td align="center">✅<br>Enabled by Default</td>
-		<td align="center">❌<br>No Support</td>
-		<td align="center">⚠️<br>Disabled by Default</td>
 	</tr>
 </table>
 
