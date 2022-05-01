@@ -104,6 +104,6 @@ GraphQL Ruby validates the following checks when a query is sent:
 		<td></td>
 		<td></td>
 		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Variables In Allowed position</a></td>
-		<td>/td>
+		<td></td>
 	</tr>
 </table>
