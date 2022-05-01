@@ -90,8 +90,8 @@
 </tr>
 
 <tr>
-    <td>graphql-java</td>
-    <td align="center">26</td>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-java.md">graphql-java</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-java#Request-Validations.md">26</a></td>
     <td align="center">✅</td>
     <td align="center">⚠️</td>
     <td align="center">⚠️</td>
