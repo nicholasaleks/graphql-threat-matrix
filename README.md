@@ -42,8 +42,8 @@
 </tr>
 
 <tr>
-    <td>graphql-js</td>
-    <td align="center">34</td>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-js.md">graphql-js</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-js.md#Request-Validations">34</a></td>
     <td align="center"></td>
     <td align="center"></td>
     <td align="center"></td>
@@ -182,6 +182,18 @@
     <td align="center">❌</td>
     <td align="center">✅</td>
     <td align="center">❌</td>
+    <td align="center">❌</td>
+</tr>
+
+<tr>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/agoo.md">Agoo</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/agoo.md#Request-Validations">0</a></td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+    <td align="center">✅</td>
+    <td align="center">⚠️</td>
     <td align="center">❌</td>
 </tr>
 

@@ -1,4 +1,4 @@
-# graphql-js
+# name
 
 ### Table of Contents
 * [About](#About)
@@ -6,12 +6,12 @@
 * [Request Validations](#Request-Validations)
 
 ## About
-Language: [javascript](https://www.javascript.com/)\
-Source: [https://github.com/graphql/graphql-js](https://github.com/graphql/graphql-js)\
-Documentation: [https://graphql.org/graphql-js/](https://graphql.org/graphql-js/)
+Language: []()\
+Source: []()\
+Documentation: []()
 
 ## Security Considerations
-graphql-js provides the following features which should be taken into consideration:
+name provides the following features which should be taken into consideration:
 
 <table>
 	<tr>
@@ -35,9 +35,9 @@ graphql-js provides the following features which should be taken into considerat
 </table>
 
 ## Request Validations
-Total Validation Count: **34**
+Total Validation Count: **XXX**
 
-graphql-js validates the following checks when a query is sent:
+name validates the following checks when a query is sent:
 
 <table>
 	<tr>

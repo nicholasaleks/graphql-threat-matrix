@@ -1,4 +1,4 @@
-# graphql-js
+# Agoo
 
 ### Table of Contents
 * [About](#About)
@@ -6,12 +6,15 @@
 * [Request Validations](#Request-Validations)
 
 ## About
-Language: [javascript](https://www.javascript.com/)\
-Source: [https://github.com/graphql/graphql-js](https://github.com/graphql/graphql-js)\
-Documentation: [https://graphql.org/graphql-js/](https://graphql.org/graphql-js/)
+Language:
+- [Ruby](https://www.ruby-lang.org/en/)
+- [C](http://www.open-std.org/jtc1/sc22/wg14/)
+
+Source: [https://github.com/ohler55/agoo](https://github.com/ohler55/agoo)\
+Documentation: [https://rubydoc.info/gems/agoo](https://rubydoc.info/gems/agoo)
 
 ## Security Considerations
-graphql-js provides the following features which should be taken into consideration:
+name provides the following features which should be taken into consideration:
 
 <table>
 	<tr>
@@ -24,20 +27,20 @@ graphql-js provides the following features which should be taken into considerat
 		<th align="center">Batch Requests</th>
 	</tr>
 	<tr>
-		<td align="center">✅<br>Enabled by Default</td>
-		<td align="center">⚠️<br>Disabled by Default</td>
-		<td align="center">⚠️<br>Disabled by Default</td>
+		<td align="center">❌<br>No Support</td>
+		<td align="center">❌<br>No Support</td>
+		<td align="center">❌<br>No Support</td>
 		<td align="center">❌<br>No Support</td>
 		<td align="center">✅<br>Enabled by Default</td>
-		<td align="center">❌<br>No Support</td>
 		<td align="center">⚠️<br>Disabled by Default</td>
+		<td align="center">❌<br>No Support</td>
 	</tr>
 </table>
 
 ## Request Validations
-Total Validation Count: **34**
+Total Validation Count: **0**
 
-graphql-js validates the following checks when a query is sent:
+name validates the following checks when a query is sent:
 
 <table>
 	<tr>
