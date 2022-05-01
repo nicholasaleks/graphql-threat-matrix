@@ -198,6 +198,18 @@
 </tr>
 
 <tr>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/gql-dart.md">gql-dart/gql</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/gql-dart.md#Request-Validations">9</a></td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+</tr>
+
+<tr>
     <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/agoo.md">Agoo</a></td>
     <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/agoo.md#Request-Validations">0</a></td>
     <td align="center">❌</td>
