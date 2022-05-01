@@ -52,69 +52,58 @@ GraphQL Ruby validates the following checks when a query is sent:
 		<th>Misc. Validations</th>
 	</tr>
 	<tr>
-		<td><a href="">Possible Types</a></td>
-		<td><a href=""></a></td>
-		<td><a href="">Validate Selection Set</a></td>
-		<td><a href="">Arguments Conflict</a></td>
-		<td><a href="">Mark Used Fragments</a></td>
-		<td><a href="">Validate Value</a></td>
-		<td><a href="">Validate Directives</a></td>
-		<td><a href="">Can Be Input</a></td>
-		<td><a href="">Validate Max Depth</a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go"></a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Lone Anonymous Operation</a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Fields on Correct Type</a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Arguments of Correct Type</a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Fragments on Composite Types</a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Default Value of Correct Type</a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Known Directives</a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">No Undefined Variables</a></td>
+		<td></td>
 	</tr>
 	<tr>
-		<td><a href="">Validate Name</a></td>
-		<td><a href=""></a></td>
-		<td><a href="">Validate Selections</a></td>
-		<td><a href="">Validate Argument Types</a></td>
-		<td><a href="">Detect Fragment Cycle</a></td>
-		<td><a href="">Validate Value Type</a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href="">Validate Literal</a></td>
+		<td></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Unique Operation Names</a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Overlapping Fields Can Be Merged</a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Known Argument Names</a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Known Fragment Names</a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">No Fragment Cycles</a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Known Type Names</a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">No Unused Variables</a></td>
+		<td></td>
 	</tr>
 	<tr>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href="">Validate Overlap</a></td>
-		<td><a href="">Validate Argument Literals</a></td>
-		<td><a href="">Detect Fragment Cycle Selection Set</a></td>
-		<td><a href="">Types Compatible</a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href="">Validate Basic Lit</a></td>
+		<td></td>
+		<td></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Scalar Leafs</a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Provided Non Null Arguments</a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">No Unused Fragments</a></td>
+		<td></td>
+		<td></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Unique Variable Names</a></td>
+		<td></td>
 	</tr>
 	<tr>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href="">Validate Field Overlap</a></td>
-		<td><a href="">Can Be Fragment</a></td>
-		<td><a href=""></a></td>
-		<td><a href="">Types Can Be Used As</a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href="">Validate Builtin Scalar</a></td>
+		<td></td>
+		<td></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Unique Input Field Names</a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Unique Argument Name</a></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Possible Fragment Spreads</a></td>
+		<td></td>
+		<td></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Variables Are Input Types</a></td>
+		<td></td>
 	</tr>
 	<tr>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href="">Has Subfields</a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href="">Is Null</a></td>
-	</tr>
-	<tr>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href="">Is Leaf</a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Unique Fragment Names</a></td>
+		<td></td>
+		<td></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Variables In Allowed position</a></td>
+		<td>/td>
 	</tr>
 </table>
