@@ -30,8 +30,8 @@
 </tr>
 
 <tr>
-    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-php.md">graphql-php</td>
-    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-php.md#Validations">37</a></td>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-php.md">graphql-php</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-php.md#Request-Validations">37</a></td>
     <td align="center">✅</td>
     <td align="center">⚠️</td>
     <td align="center">⚠️</td>
@@ -54,8 +54,44 @@
 </tr>
 
 <tr>
-    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-ruby.md">graphql-ruby</td>
-    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-ruby.md#Validations">28</a></td>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphene.md">graphene</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphene.md#Request-Validations">34</a></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+</tr>
+
+<tr>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/ariadne.md">Ariadne</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/ariadne.md#Request-Validations">34</a></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+</tr>
+
+<tr>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/strawberry.md">Strawberry</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/strawberry.md#Request-Validations">34</a></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+</tr>
+
+<tr>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-ruby.md">graphql-ruby</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-ruby.md##Request-Validations">28</a></td>
     <td align="center">✅</td>
     <td align="center">❌</td>
     <td align="center">⚠️</td>
@@ -102,7 +138,7 @@
 </tr>
 
 <tr>
-    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/gqlgen.md">gqlgen</td>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/gqlgen.md">gqlgen</a></td>
     <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/gqlgen.md#Request-Validations">25</td>
     <td align="center">✅</td>
     <td align="center">❌</td>
@@ -111,18 +147,6 @@
     <td align="center">✅</td>
     <td align="center">⚠️</td>
     <td align="center">⚠️</td>
-</tr>
-
-<tr>
-    <td>graphql-core</td>
-    <td align="center">24</td>
-    <td align="center"></td>
-    <td align="center"></td>
-    <td align="center"></td>
-    <td align="center"></td>
-    <td align="center"></td>
-    <td align="center"></td>
-    <td align="center"></td>
 </tr>
 
 <tr>

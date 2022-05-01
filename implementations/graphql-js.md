@@ -39,11 +39,6 @@ Total Validation Count: **XXX**
 
 GraphQL Ruby validates the following checks when a query is sent:
 
-| [Document Validations](https://spec.graphql.org/October2021/#sec-Documents) | [Operation Validations](https://spec.graphql.org/October2021/#sec-Validation.Operations) | [Field Validations](https://spec.graphql.org/October2021/#sec-Validation.Fields) | [Argument Validations](https://spec.graphql.org/October2021/#sec-Validation.Arguments) | [Fragment Validations](https://spec.graphql.org/October2021/#sec-Validation.Fragments)      | [Value/Type Validations](https://spec.graphql.org/October2021/#sec-Values) | [Directive Validations](https://spec.graphql.org/October2021/#sec-Validation.Directives)  | [Variable Validations](https://spec.graphql.org/October2021/#sec-Validation.Variables) | Misc. Validations |
-|----------------------|-----------------------|-------------------|----------------------|---------------------------|--------------------------|------------------------|----------------------|-------------------|
-
-
-
 <table>
 	<tr>
 		<th><a href="https://spec.graphql.org/October2021/#sec-Documents">Document Validations</a></th>

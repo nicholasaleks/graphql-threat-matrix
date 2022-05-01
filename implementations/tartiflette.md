@@ -6,7 +6,7 @@
 * [Request Validations](#Request-Validations)
 
 ## About
-Language: [https://www.python.org/](https://www.python.org/)\
+Language: [python](https://www.python.org/)\
 Source: [https://github.com/tartiflette/tartiflette](https://github.com/tartiflette/tartiflette)\
 Documentation: [https://tartiflette.io/](https://tartiflette.io/)
 

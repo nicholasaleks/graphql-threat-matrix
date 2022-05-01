@@ -11,11 +11,11 @@ Source:
 - [https://github.com/99designs/gqlgen](https://github.com/99designs/gqlgen)
 - [https://github.com/vektah/gqlparser](https://github.com/vektah/gqlparser)
 
-Documentation: https://gqlgen.com/](https://gqlgen.com/)
+Documentation: [https://gqlgen.com/](https://gqlgen.com/)
 
 
 ## Security Considerations
-graphql-js provides the following features which should be taken into consideration:
+gqlgen provides the following features which should be taken into consideration:
 
 <table>
 	<tr>
@@ -41,7 +41,7 @@ graphql-js provides the following features which should be taken into considerat
 ## Request Validations
 Total Validation Count: **25**
 
-gqldwn validates the following checks when a query is sent:
+gqlgen validates the following checks when a query is sent:
 
 <table>
 	<tr>
