@@ -1,4 +1,4 @@
-# name
+# graphql-yoga
 
 ### Table of Contents
 * [About](#About)
@@ -11,7 +11,7 @@ Source: [https://github.com/dotansimha/graphql-yoga](https://github.com/dotansim
 Documentation: [https://www.graphql-yoga.com/](https://www.graphql-yoga.com/)
 
 ## Security Considerations
-name provides the following features which should be taken into consideration:
+graphql-yoga provides the following features which should be taken into consideration:
 
 <table>
 	<tr>
@@ -26,18 +26,18 @@ name provides the following features which should be taken into consideration:
 	<tr>
 		<td align="center">✅<br>Enabled by Default</td>
 		<td align="center">⚠️<br>Disabled by Default</td>
+		<td align="center">❌<br>No Support</td>
+		<td align="center">❌<br>No Support</td>
 		<td align="center">⚠️<br>Disabled by Default</td>
-		<td align="center">❌<br>No Support</td>
-		<td align="center">✅<br>Enabled by Default</td>
-		<td align="center">❌<br>No Support</td>
+		<td align="center">⚠️<br>Disabled by Default</td>
 		<td align="center">⚠️<br>Disabled by Default</td>
 	</tr>
 </table>
 
 ## Request Validations
-Total Validation Count: **XXX**
+Total Validation Count: **34**
 
-name validates the following checks when a query is sent:
+graphql-yoga is based on [apollo](https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/apollo.md) and [graphql-js](https://github.com/graphql/graphql-js) which validates the following checks when a query is sent:
 
 <table>
 	<tr>
@@ -52,14 +52,58 @@ name validates the following checks when a query is sent:
 		<th>Misc. Validations</th>
 	</tr>
 	<tr>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/ExecutableDefinitionsRule.ts">Executable Definitions</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/LoneAnonymousOperationRule.ts">Lone Anonymous Operation</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/FieldsOnCorrectTypeRule.ts">Fields On Correct Type</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/KnownArgumentNamesRule.ts">Known Argument Names</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/FragmentsOnCompositeTypesRule.ts">Fragments On Composite Types</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/KnownTypeNamesRule.ts">Known Type Names</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/KnownDirectivesRule.ts">Known Directives</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/NoUndefinedVariablesRule.ts">No Undefined Variables</a></td>
+		<td><a href=""></a></td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/LoneSchemaDefinitionRule.ts">Lone Schema Definition</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/UniqueOperationNamesRule.ts">Unique Operation Names</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/OverlappingFieldsCanBeMergedRule.ts">Overlapping Fields Can Be Merged</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/ProvidedRequiredArgumentsRule.ts">Provided Required Arguments</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/KnownFragmentNamesRule.ts">Known Fragment Names</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/PossibleTypeExtensionsRule.ts">Possible Type Extensions</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/UniqueDirectiveNamesRule.ts">Unique Directive Names</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/NoUnusedVariablesRule.ts">No Unused Variables</a></td>
+		<td><a href=""></a></td>
+	</tr>
+	<tr>
+		<td><a href=""></a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/UniqueOperationNamesRule.ts">Unique Operation Types</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/ScalarLeafsRule.ts">Scalar Leafs</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/UniqueArgumentDefinitionNamesRule.ts">Unique Argument Definition Names</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/NoFragmentCyclesRule.ts">No Fragment Cycles</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/UniqueEnumValueNamesRule.ts">Unique Enum Value Names</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/UniqueDirectivesPerLocationRule.ts">Unique Directives Per Location</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/UniqueVariableNamesRule.ts">Unique Variable Names</a></td>
+		<td><a href=""></a></td>
+	</tr>
+	<tr>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/SingleFieldSubscriptionsRule.ts">Single Field Subscriptions</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/UniqueArgumentNamesRule.ts">Unique Argument Names</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/NoUnusedFragmentsRule.ts">No Unused Fragments</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/UniqueTypeNamesRule.ts">Unique Type Names</a></td>
+		<td><a href=""></a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/VariablesAreInputTypesRule.ts">Variables Are Input Types</a></td>
+		<td><a href=""></a></td>
+	</tr>
+	<tr>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/UniqueFieldDefinitionNamesRule.ts">Unique Field Definition Names</a></td>
 		<td><a href=""></a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/PossibleFragmentSpreadsRule.ts">Possible Fragment Spreads</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/ValuesOfCorrectTypeRule.ts">Values Of Correct Type</a></td>
 		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/VariablesInAllowedPositionRule.ts">Variables In Allowed Position</a></td>
 		<td><a href=""></a></td>
 	</tr>
 	<tr>
@@ -67,52 +111,8 @@ name validates the following checks when a query is sent:
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-	</tr>
-	<tr>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-	</tr>
-	<tr>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-	</tr>
-	<tr>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-	</tr>
-	<tr>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
-		<td><a href=""></a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/UniqueFragmentNamesRule.ts">Unique Fragment Names</a></td>
+		<td><a href="https://github.com/graphql/graphql-js/blob/main/src/validation/rules/UniqueInputFieldNamesRule.ts">Unique Input Field Names</a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>

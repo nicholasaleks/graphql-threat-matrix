@@ -54,6 +54,18 @@
 </tr>
 
 <tr>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-yoga.md">graphql-yoga</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-yoga.md#Request-Validations">34</a></td>
+    <td align="center">✅</td>
+    <td align="center">⚠️</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+    <td align="center">⚠️</td>
+    <td align="center">⚠️</td>
+    <td align="center">⚠️</td>
+</tr>
+
+<tr>
     <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphene.md">graphene</a></td>
     <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphene.md#Request-Validations">34</a></td>
     <td align="center">✅</td>
