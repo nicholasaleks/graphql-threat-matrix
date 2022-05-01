@@ -30,7 +30,7 @@ Dgraph provides the following features which should be taken into consideration:
 		<td align="center">✅<br>Enabled by Default</td>
 		<td align="center">❌<br>No Support</td>
 		<td align="center">❌<br>No Support</td>
-		<td align="center">❌<br>No Support</td>
+		<td align="center">⚠️<br>Disabled by Default</td>
 		<td align="center">✅<br>Enabled by Default</td>
 		<td align="center">❌<br>No Support</td>
 		<td align="center">❌<br>No Support</td>
@@ -38,7 +38,7 @@ Dgraph provides the following features which should be taken into consideration:
 </table>
 
 ## Request Validations
-Total Validation Count: **XXX**
+Total Validation Count: **25**
 
 Dgraph is based on [gqlparser](https://github.com/dgraph-io/gqlparser) which validates the following checks when a query is sent:
 

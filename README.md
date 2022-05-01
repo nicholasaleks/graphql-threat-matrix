@@ -154,11 +154,11 @@
     <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/dgraph.md#Request-Validations">25</td>
     <td align="center">✅</td>
     <td align="center">❌</td>
-    <td align="center">⚠️</td>
+    <td align="center">❌</td>
     <td align="center">⚠️</td>
     <td align="center">✅</td>
-    <td align="center">⚠️</td>
-    <td align="center">⚠️</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
 </tr>
 
 <tr>
