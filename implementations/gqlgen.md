@@ -41,7 +41,7 @@ gqlgen provides the following features which should be taken into consideration:
 ## Request Validations
 Total Validation Count: **25**
 
-gqlgen validates the following checks when a query is sent:
+gqlgen is based on [gqlparser](https://github.com/dgraph-io/gqlparser) which validates the following checks when a query is sent:
 
 <table>
 	<tr>
