@@ -42,8 +42,8 @@
 </tr>
 
 <tr>
-    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-js.md">graphql-js</a></td>
-    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-js.md#Request-Validations">34</a></td>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/apollo.md">Apollo</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/apollo.md#Request-Validations">34</a></td>
     <td align="center"></td>
     <td align="center"></td>
     <td align="center"></td>
