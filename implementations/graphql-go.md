@@ -35,7 +35,7 @@ GraphQL Go provides the following features which should be taken into considerat
 </table>
 
 ## Request Validations
-Total Validation Count: **26**
+Total Validation Count: **24**
 
 GraphQL Ruby validates the following checks when a query is sent:
 
