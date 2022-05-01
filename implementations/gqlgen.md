@@ -7,10 +7,11 @@
 
 ## About
 Language: [php](https://www.php.net/)\
-Source: [https://github.com/99designs/gqlgen](https://github.com/99designs/gqlgen)\
-Documentation: 
-- [https://gqlgen.com/](https://gqlgen.com/)
-- [https://github.com/vektah/gqlparser](https://github.com/vektah/gqlparser)
+Source: 
+- [https://github.com/99designs/gqlgen](https://github.com/99designs/gqlgen)
+- [https://github.com/vektah/gqlparser](https://github.com/vektah/gqlparser)\
+Documentation: https://gqlgen.com/](https://gqlgen.com/)
+
 
 ## Security Considerations
 graphql-js provides the following features which should be taken into consideration:
