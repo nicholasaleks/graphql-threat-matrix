@@ -11,7 +11,7 @@ Source: [https://github.com/graphql-go/graphql](https://github.com/graphql-go/gr
 Documentation: [https://pkg.go.dev/github.com/graphql-go/graphql](https://pkg.go.dev/github.com/graphql-go/graphql)
 
 ## Security Considerations
-GraphQL Go provides the following features which should be taken into consideration:
+graphql-go provides the following features which should be taken into consideration:
 
 <table>
 	<tr>

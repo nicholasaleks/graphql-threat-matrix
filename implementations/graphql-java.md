@@ -1,4 +1,4 @@
-# graphql-js
+# graphql-java
 
 ### Table of Contents
 * [About](#About)
@@ -6,12 +6,12 @@
 * [Request Validations](#Request-Validations)
 
 ## About
-Language: [php](https://www.php.net/)\
-Source: []()\
-Documentation: []()
+Language: [java](https://www.oracle.com/java/)\
+Source: [https://github.com/graphql-java/graphql-java](https://github.com/graphql-java/graphql-java)\
+Documentation: [https://www.graphql-java.com/](https://www.graphql-java.com/)
 
 ## Security Considerations
-graphql-js provides the following features which should be taken into consideration:
+graphql-java provides the following features which should be taken into consideration:
 
 <table>
 	<tr>
@@ -36,13 +36,6 @@ graphql-js provides the following features which should be taken into considerat
 
 ## Request Validations
 Total Validation Count: **XXX**
-
-GraphQL Ruby validates the following checks when a query is sent:
-
-| [Document Validations](https://spec.graphql.org/October2021/#sec-Documents) | [Operation Validations](https://spec.graphql.org/October2021/#sec-Validation.Operations) | [Field Validations](https://spec.graphql.org/October2021/#sec-Validation.Fields) | [Argument Validations](https://spec.graphql.org/October2021/#sec-Validation.Arguments) | [Fragment Validations](https://spec.graphql.org/October2021/#sec-Validation.Fragments)      | [Value/Type Validations](https://spec.graphql.org/October2021/#sec-Values) | [Directive Validations](https://spec.graphql.org/October2021/#sec-Validation.Directives)  | [Variable Validations](https://spec.graphql.org/October2021/#sec-Validation.Variables) | Misc. Validations |
-|----------------------|-----------------------|-------------------|----------------------|---------------------------|--------------------------|------------------------|----------------------|-------------------|
-
-
 
 <table>
 	<tr>

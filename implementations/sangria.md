@@ -11,7 +11,7 @@ Source: [https://github.com/sangria-graphql/sangria](https://github.com/sangria-
 Documentation: [https://sangria-graphql.github.io/learn/](https://sangria-graphql.github.io/learn/)
 
 ## Security Considerations
-GraphQL Sangria provides the following features which should be taken into consideration:
+Sangria provides the following features which should be taken into consideration:
 
 <table>
 	<tr>

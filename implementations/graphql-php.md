@@ -11,7 +11,7 @@ Source: [https://github.com/webonyx/graphql-php](https://github.com/webonyx/grap
 Documentation: [https://webonyx.github.io/graphql-php/](https://webonyx.github.io/graphql-php/)
 
 ## Security Considerations
-GraphQL PHP provides the following features which should be taken into consideration:
+graphql-php provides the following features which should be taken into consideration:
 
 <table>
 	<tr>

@@ -11,7 +11,7 @@ Source: [https://github.com/rmosolgo/graphql-ruby](https://github.com/rmosolgo/g
 Documentation: [https://graphql-ruby.org/](https://graphql-ruby.org/)
 
 ## Security Considerations
-GraphQL Ruby provides the following features which should be taken into consideration:
+graphql-ruby provides the following features which should be taken into consideration:
 
 <table>
 	<tr>
