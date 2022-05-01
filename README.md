@@ -102,8 +102,8 @@
 </tr>
 
 <tr>
-    <td>gqlgen</td>
-    <td align="center">25</td>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/gqlgen.md">gqlgen</td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/gqlgen.md#Request-Validations">25</td>
     <td align="center">✅</td>
     <td align="center">❌</td>
     <td align="center">⚠️</td>
