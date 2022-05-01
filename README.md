@@ -162,8 +162,8 @@
 </tr>
 
 <tr>
-    <td>graphql-rust</td>
-    <td align="center">24</td>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/juniper.md">juniper</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/juniper.md#Request-Validations">24</a></td>
     <td align="center"></td>
     <td align="center"></td>
     <td align="center"></td>
