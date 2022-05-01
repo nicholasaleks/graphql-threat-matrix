@@ -174,8 +174,8 @@
 </tr>
 
 <tr>
-    <td>Diana.jl</td>
-    <td align="center">10</td>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/diana.md">Diana.jl</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/diana.md#Request-Validations">10</a></td>
     <td align="center">✅</td>
     <td align="center">❌</td>
     <td align="center">❌</td>
