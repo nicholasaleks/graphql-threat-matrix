@@ -68,8 +68,8 @@ GraphQL Ruby validates the following checks when a query is sent:
 		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Overlapping Fields Can Be Merged</a></td>
 		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Known Argument Names</a></td>
 		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Known Fragment Names</a></td>
-		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">No Fragment Cycles</a></td>
 		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Known Type Names</a></td>
+		<td></td>
 		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">No Unused Variables</a></td>
 		<td></td>
 	</tr>
@@ -104,6 +104,17 @@ GraphQL Ruby validates the following checks when a query is sent:
 		<td></td>
 		<td></td>
 		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">Variables In Allowed position</a></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td><a href="https://github.com/graphql-go/graphql/blob/master/rules.go">No Fragment Cycles</a></td>
+		<td></td>
+		<td></td>
+		<td></td>
 		<td></td>
 	</tr>
 </table>
