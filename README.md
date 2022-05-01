@@ -78,8 +78,8 @@
 </tr>
 
 <tr>
-    <td>Tartiflette</td>
-    <td align="center">26</td>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/tartiflette.md">Tartiflette</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/tartiflette.md#Request-Validations">26</a></td>
     <td align="center">❌</td>
     <td align="center">❌</td>
     <td align="center">❌</td>
