@@ -40,7 +40,7 @@ graphene provides the following features which should be taken into consideratio
 ## Request Validations
 Total Validation Count: **34**
 
-graphene is based on graphql-core which validates the following checks when a query is sent:
+graphene is based on [graphql-core](https://github.com/graphql-python/graphql-core) which validates the following checks when a query is sent:
 
 <table>
 	<tr>
