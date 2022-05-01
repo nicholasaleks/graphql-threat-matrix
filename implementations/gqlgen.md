@@ -6,7 +6,7 @@
 * [Request Validations](#Request-Validations)
 
 ## About
-Language: [php](https://www.php.net/)\
+Language: [go](https://go.dev/)\
 Source: 
 - [https://github.com/99designs/gqlgen](https://github.com/99designs/gqlgen)
 - [https://github.com/vektah/gqlparser](https://github.com/vektah/gqlparser)
