@@ -118,3 +118,26 @@ Apollo is based on [graphql-js](https://github.com/graphql/graphql-js) which val
 		<td><a href=""></a></td>
 	</tr>
 </table>
+
+## Notable Vulnerabilities
+
+<table>
+	<tr>
+		<th>CVE ID</th>
+		<th>Date</th>
+		<th>Score</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/apollographql/apollo-server/security/advisories/GHSA-qm7x-rc44-rrqw">CVE-2021-41249</a></td>
+		<td>2021-11-04</td>
+		<td>7.1</td>
+		<td>Cross-site Scripting Vulnerability in GraphQL Playground (distributed by Apollo Server)</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/apollographql/apollo-server/security/advisories/GHSA-w42g-7vfc-xf37">-</a></td>
+		<td>2020-05-04</td>
+		<td>Moderate</td>
+		<td>Schema validation rules are not passed to the subscription server, including rules that restrict introspection</td>
+	</tr>
+</table>
