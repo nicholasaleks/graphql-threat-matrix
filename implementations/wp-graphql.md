@@ -4,6 +4,7 @@
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
 * [Request Validations](#Request-Validations)
+* [Notable Vulnerabilities]()
 
 ## About
 Language: [php](https://www.php.net/)\
@@ -116,5 +117,34 @@ wp-graphql is based on [graphql-php](https://github.com/nicholasaleks/graphql-th
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
+	</tr>
+</table>
+
+## Notable Vulnerabilities
+
+<table>
+	<tr>
+		<th>CVE ID</th>
+		<th>Date</th>
+		<th>Score</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<td><a href="https://www.cvedetails.com/cve/CVE-2019-9881/">CVE-2019-9881</a></td>
+		<td>2019-06-10</td>
+		<td>5.0</td>
+		<td>The createComment mutation in the WPGraphQL 0.2.3 plugin for WordPress allows unauthenticated users to post comments on any article, even when 'allow comment' is disabled.</td>
+	</tr>
+	<tr>
+		<td><a href="https://www.cvedetails.com/cve/CVE-2019-9880/">CVE-2019-9880</a></td>
+		<td>2019-06-10</td>
+		<td>6.4</td>
+		<td>An issue was discovered in the WPGraphQL 0.2.3 plugin for WordPress. By querying the 'users' RootQuery, it is possible, for an unauthenticated attacker, to retrieve all WordPress users details such as email address, role, and username.</td>
+	</tr>
+	<tr>
+		<td><a href="https://www.cvedetails.com/cve/CVE-2019-9879/">CVE-2019-9879</a></td>
+		<td>2019-06-10</td>
+		<td>7.5</td>
+		<td>The WPGraphQL 0.2.3 plugin for WordPress allows remote attackers to register a new user with admin privileges, whenever new user registrations are allowed. This is related to the registerUser mutation.</td>
 	</tr>
 </table>
