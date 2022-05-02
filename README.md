@@ -30,6 +30,18 @@
 </tr>
 
 <tr>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/wp-graphql.md">wp-graphql</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/wp-graphql.md#Request-Validations">38</a></td>
+    <td align="center">✅</td>
+    <td align="center">⚠️</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+    <td align="center">⚠️</td>
+    <td align="center">⚠️</td>
+    <td align="center">✅</td>
+</tr>
+
+<tr>
     <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-php.md">graphql-php</a></td>
     <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-php.md#Request-Validations">37</a></td>
     <td align="center">✅</td>
