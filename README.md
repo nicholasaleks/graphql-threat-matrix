@@ -251,7 +251,7 @@ The differences in how GraphQL implementations interpret and conform to the Grap
 
 </table>
 
-## How to provide a submission (or correction)?
+## Want to provide a submission (or correction)?
 Interested in contributing? Found a discrepancy? Please create a GitHub issue or PR with your details.
 
 ## Contributors & Maintainers
