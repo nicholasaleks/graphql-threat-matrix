@@ -4,6 +4,7 @@
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
 * [Request Validations](#Request-Validations)
+* [Security Disclosure](#Security-Disclosure)
 
 ## About
 Language: [julia](https://julialang.org/)\
@@ -118,3 +119,6 @@ diana.jl validates the following checks when a query is sent:
 		<td><a href=""></a></td>
 	</tr>
 </table>
+
+## Security Disclosure
+https://github.com/neomatrixcode/Diana.jl/issues

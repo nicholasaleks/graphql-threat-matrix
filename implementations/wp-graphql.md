@@ -5,6 +5,7 @@
 * [Security Considerations](#Security-Considerations)
 * [Request Validations](#Request-Validations)
 * [Notable Vulnerabilities]()
+* [Security Disclosure](#Security-Disclosure)
 
 ## About
 Language: [php](https://www.php.net/)\
@@ -148,3 +149,6 @@ wp-graphql is based on [graphql-php](https://github.com/nicholasaleks/graphql-th
 		<td>The WPGraphQL 0.2.3 plugin for WordPress allows remote attackers to register a new user with admin privileges, whenever new user registrations are allowed. This is related to the registerUser mutation.</td>
 	</tr>
 </table>
+
+## Security Disclosure
+https://github.com/wp-graphql/wp-graphql/issues

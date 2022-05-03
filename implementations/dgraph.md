@@ -4,6 +4,7 @@
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
 * [Request Validations](#Request-Validations)
+* [Security Disclosure](#Security-Disclosure)
 
 ## About
 Language: [go](https://go.dev/)\
@@ -121,3 +122,6 @@ Dgraph is based on [gqlparser](https://github.com/dgraph-io/gqlparser) which val
 		<td><a href=""></a></td>
 	</tr>
 </table>
+
+## Security Disclosure
+contact@dgraph.io

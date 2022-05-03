@@ -4,6 +4,7 @@
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
 * [Request Validations](#Request-Validations)
+* [Security Disclosure](#Security-Disclosure)
 
 ## About
 Language:
@@ -121,3 +122,6 @@ name validates the following checks when a query is sent:
 		<td><a href=""></a></td>
 	</tr>
 </table>
+
+## Security Disclosure
+https://github.com/ohler55/agoo/blob/develop/SECURITY.md

@@ -4,6 +4,7 @@
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
 * [Request Validations](#Request-Validations)
+* [Security Disclosure](#Security-Disclosure)
 
 ## About
 Language: [rust](https://www.rust-lang.org/)\
@@ -118,3 +119,6 @@ juniper validates the following checks when a query is sent:
 		<td><a href=""></a></td>
 	</tr>
 </table>
+
+## Security Disclosure
+https://github.com/graphql-rust/juniper/issues

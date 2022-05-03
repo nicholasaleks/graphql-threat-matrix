@@ -4,6 +4,7 @@
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
 * [Request-Validations](#Request-Validations)
+* [Security Disclosure](#Security-Disclosure)
 
 ## About
 Language: [go](https://go.dev/)\
@@ -118,3 +119,6 @@ GraphQL Ruby validates the following checks when a query is sent:
 		<td></td>
 	</tr>
 </table>
+
+## Security Disclosure
+Report the issue to @pavelnikolov and/or @tony in the Gophers Slack in a private message.
