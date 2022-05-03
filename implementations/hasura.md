@@ -7,7 +7,7 @@
 * [Security Disclosure](#Security-Disclosure)
 
 ## About
-Language: []()\
+Language: [Haskell](https://www.haskell.org/)\
 Source: [https://github.com/hasura/graphql-engine](https://github.com/hasura/graphql-engine)\
 Documentation: [https://hasura.io/](https://hasura.io/)
 
