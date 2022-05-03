@@ -4,6 +4,7 @@
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
 * [Request Validations](#Request-Validations)
+* [Security Disclosure](#Security-Disclosure)
 
 ## About
 Language: [python](https://www.python.org/)\
@@ -121,3 +122,6 @@ Strawberry is based on [graphql-core](https://github.com/graphql-python/graphql-
 		<td><a href=""></a></td>
 	</tr>
 </table>
+
+## Security Disclosure
+https://github.com/strawberry-graphql/strawberry/issues

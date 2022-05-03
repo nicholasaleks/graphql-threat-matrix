@@ -4,6 +4,7 @@
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
 * [Request Validations](#Request-Validations)
+* [Security Disclosure](#Security-Disclosure)
 
 ## About
 Language: [Ruby](https://www.ruby-lang.org/en/)\
@@ -49,3 +50,6 @@ GraphQL Ruby validates the following checks when a query is sent:
 | | [Subscription root exists](https://github.com/rmosolgo/graphql-ruby/blob/master/lib/graphql/static_validation/rules/subscription_root_exists.rb) |  | [Requried arguments are present](https://github.com/rmosolgo/graphql-ruby/blob/master/lib/graphql/static_validation/rules/required_arguments_are_present.rb) |  [Fragements are finite](https://github.com/rmosolgo/graphql-ruby/blob/master/lib/graphql/static_validation/rules/fragments_are_finite.rb) | | | [Variables are input types](https://github.com/rmosolgo/graphql-ruby/blob/master/lib/graphql/static_validation/rules/variables_are_input_types.rb) | |
 | | | | | [Fragments are named](https://github.com/rmosolgo/graphql-ruby/blob/master/lib/graphql/static_validation/rules/fragments_are_named.rb) | | | [Variables are used and defined](https://github.com/rmosolgo/graphql-ruby/blob/master/lib/graphql/static_validation/rules/variables_are_used_and_defined.rb) | |
 | | | | | [Fragments are on composite types](https://github.com/rmosolgo/graphql-ruby/blob/master/lib/graphql/static_validation/rules/fragments_are_on_composite_types.rb) | | | | |
+
+## Security Disclosure
+https://github.com/rmosolgo/graphql-ruby/issues

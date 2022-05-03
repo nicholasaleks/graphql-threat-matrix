@@ -4,6 +4,7 @@
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
 * [Request Validations](#Request-Validations)
+* [Security Disclosure](#Security-Disclosure)
 
 ## About
 Language: [javascript](https://www.javascript.com/)\
@@ -129,3 +130,6 @@ directus validates the following checks when a query is sent:
 		<td><a href="https://github.com/directus/directus/blob/main/api/src/utils/validate-query.ts">Validate Alias</a></td>
 	</tr>
 </table>
+
+## Security Disclosure
+security@directus.io

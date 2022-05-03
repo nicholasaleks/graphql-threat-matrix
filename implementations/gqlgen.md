@@ -4,6 +4,7 @@
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
 * [Request Validations](#Request-Validations)
+* [Security Disclosure](#Security-Disclosure)
 
 ## About
 Language: [go](https://go.dev/)\
@@ -122,3 +123,6 @@ gqlgen is based on [gqlparser](https://github.com/dgraph-io/gqlparser) which val
 		<td><a href=""></a></td>
 	</tr>
 </table>
+
+## Security Disclosure
+https://github.com/99designs/gqlgen/issues

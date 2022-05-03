@@ -4,6 +4,7 @@
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
 * [Request Validations](#Request-Validations)
+* [Security Disclosure](#Security-Disclosure)
 
 ## About
 Language: [typescript](https://www.typescriptlang.org/)\
@@ -118,3 +119,6 @@ graphql-yoga is based on [apollo](https://github.com/nicholasaleks/graphql-threa
 		<td><a href=""></a></td>
 	</tr>
 </table>
+
+## Security Disclosure
+https://github.com/dotansimha/graphql-yoga

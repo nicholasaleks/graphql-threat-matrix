@@ -4,6 +4,7 @@
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
 * [Request Validations](#Request-Validations)
+* [Security Disclosure](#Security-Disclosure)
 
 ## About
 Language: [javascript](https://www.javascript.com/)\
@@ -141,3 +142,6 @@ Apollo is based on [graphql-js](https://github.com/graphql/graphql-js) which val
 		<td>Schema validation rules are not passed to the subscription server, including rules that restrict introspection</td>
 	</tr>
 </table>
+
+## Security Disclosure
+security@apollographql.com
