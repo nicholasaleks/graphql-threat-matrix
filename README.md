@@ -7,6 +7,10 @@
  GraphQL Threat Matrix
 </h1>
 
+## Why graphql-threat-matrix?
+[graphql-threat-matrix](https://github.com/nicholasaleks/graphql-threat-matrix) was built for bug bounty hunters, security researchers and hackers to assist with uncovering vulnerabilities across multiple GraphQL implementations.
+
+The differences in how GraphQL implementations interpret and conform to the GraphQL specification may lead to security gaps and unique attack vectors. By analyzing and comparing the factors that drive the security risks across different implementations the GraphQL ecosystem can make safer deployment decisions as well as collectively advance the security maturity of all implementations.
 
 <p>
 <b>Legend</b><br>
