@@ -250,3 +250,10 @@ The differences in how GraphQL implementations interpret and conform to the Grap
 </tr>
 
 </table>
+
+## How to provide a submission (or correction)?
+Interested in contributing? Found a discrepancy? Please create a GitHub issue or PR with your details.
+
+## Contributors & Maintainers
+- [Nick Aleks](https://github.com/nicholasaleks)
+- [Dolev Farhi](https://github.com/dolevf)
