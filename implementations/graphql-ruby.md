@@ -4,6 +4,7 @@
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
 * [Request Validations](#Request-Validations)
+* [Notable Vulnerabilities](#Notable-Vulnerabilties)
 * [Security Disclosure](#Security-Disclosure)
 
 ## About

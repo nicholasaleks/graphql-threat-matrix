@@ -4,6 +4,7 @@
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
 * [Request Validations](#Request-Validations)
+* [Notable Vulnerabilities](#Notable-Vulnerabilties)
 * [Security Disclosure](#Security-Disclosure)
 
 ## About
@@ -120,6 +121,23 @@ name validates the following checks when a query is sent:
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
+	</tr>
+</table>
+
+## Notable Vulnerabilities
+
+<table>
+	<tr>
+		<th>CVE ID</th>
+		<th>Date</th>
+		<th>Score</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<td>-</td>
+		<td>2022-05-03</td>
+		<td>-</td>
+		<td>Agoo versions 2.11.1 and below do not support request validations meaning cycle fragment requests lead to unbounded results causing instances of Agoo to crash.</td>
 	</tr>
 </table>
 

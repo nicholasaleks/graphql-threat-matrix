@@ -4,6 +4,8 @@
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
 * [Request Validations](#Request-Validations)
+* [Notable Vulnerabilities](#Notable-Vulnerabilties)
+* [Security Disclosure](#Security-Disclosure)
 
 ## About
 Language: []()\
@@ -118,3 +120,29 @@ name validates the following checks when a query is sent:
 		<td><a href=""></a></td>
 	</tr>
 </table>
+
+## Notable Vulnerabilities
+
+<table>
+	<tr>
+		<th>CVE ID</th>
+		<th>Date</th>
+		<th>Score</th>
+		<th>Description</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
+
+## Security Disclosure
+url
