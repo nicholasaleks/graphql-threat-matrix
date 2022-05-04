@@ -63,7 +63,7 @@ The differences in how GraphQL implementations interpret and conform to the Grap
     <td align="center">✅</td>
     <td align="center">⚠️</td>
     <td align="center">⚠️</td>
-    <td align="center">❌</td>
+    <td align="center">✅</td>
     <td align="center">✅</td>
     <td align="center">✅</td>
     <td align="center">✅</td>
