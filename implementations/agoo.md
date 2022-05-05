@@ -134,7 +134,7 @@ name validates the following checks when a query is sent:
 		<th>Description</th>
 	</tr>
 	<tr>
-		<td>-</td>
+		<td>CVE-2022-30288</td>
 		<td>2022-05-03</td>
 		<td>-</td>
 		<td>Agoo versions 2.11.1 and below do not support request validations meaning cycle fragment requests lead to unbounded results causing instances of Agoo to crash.</td>
