@@ -40,7 +40,7 @@ name provides the following features which should be taken into consideration:
 </table>
 
 ## Request Validations
-Total Validation Count: **0**
+Total Validation Count: **1**
 
 name validates the following checks when a query is sent:
 
@@ -61,7 +61,7 @@ name validates the following checks when a query is sent:
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
-		<td><a href=""></a></td>
+		<td><a href="https://github.com/ohler55/agoo/blob/ecb72fa66f3d846b724b4fa1d7648669cebabe0c/ext/agoo/gqlintro.c">Fragment Cycles</a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
 		<td><a href=""></a></td>
