@@ -68,11 +68,11 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <td><a href="">Lone Schema Definition</a> <= Same as above, no SDL is supported, so no "schema" can be passed in the query</td>
         <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L128">Unique Operation Names</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/21f5820c459800946ad69b530412eded836e4f1e/layers/Engine/packages/graphql-parser/src/Spec/Parser/Parser.php#L660">Unique Input Field Names</a></td>
-        <td><a href="">Known Argument Names On Directives</a></td>
-        <td><a href="">Known Fragment Names</a></td>
-        <td><a href="">Possible Type Extensions</a></td>
-        <td><a href="">Unique Directive Names</a></td>
-        <td><a href="">No Unused Variables</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/Schema/FieldQueryInterpreter.php#L465">Known Argument Names On Directives</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L173">Known Fragment Names</a></td>
+        <td><a href="">Possible Type Extensions</a> <= Same as above, no SDL is supported, so no "type extensions" supported</td>
+        <td><a href=""></a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L566">No Unused Variables</a></td>
         <td><a href=""></a></td>
     </tr>
     <tr>
@@ -82,7 +82,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <td><a href="">Provided Required Arguments</a></td>
         <td><a href="">No Fragment Cycles</a></td>
         <td><a href="">Unique Enum Value Names</a></td>
-        <td><a href="">Unique Directives Per Location</a></td>
+        <td><a href=""></a></td>
         <td><a href="">Unique Variable Names</a></td>
         <td><a href=""></a></td>
     </tr>
