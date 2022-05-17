@@ -54,7 +54,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <th>Misc. Validations</th>
     </tr>
     <tr>
-        <td><a href="">Executable Definitions</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/21f5820c459800946ad69b530412eded836e4f1e/layers/Engine/packages/graphql-parser/src/Spec/Parser/Parser.php">Executable Definitions</a> <= This is implicit, because the server is code-first: it doesn't handle SDL, hence non-executable definitions are directly not supported, and the parser will already throw an error</td>
         <td><a href="">Lone Anonymous Operation</a></td>
         <td><a href="">Fields on Correct Type</a></td>
         <td><a href="">Known Argument Names</a></td>
@@ -65,7 +65,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <td><a href="">Disable Introspection</a></td>
     </tr>
     <tr>
-        <td><a href="">Lone Schema Definition</a></td>
+        <td><a href="">Lone Schema Definition</a> <= Same as above, no SDL is supported, so no "schema" can be passed in the query</td>
         <td><a href="">Unique Operation Names</a></td>
         <td><a href="">Overlapping Fields Can Be Merged</a></td>
         <td><a href="">Known Argument Names On Directives</a></td>
