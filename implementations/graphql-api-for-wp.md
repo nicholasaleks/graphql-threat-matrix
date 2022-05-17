@@ -55,7 +55,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
     </tr>
     <tr>
         <td><a href="https://github.com/leoloso/PoP/blob/21f5820c459800946ad69b530412eded836e4f1e/layers/Engine/packages/graphql-parser/src/Spec/Parser/Parser.php">Executable Definitions</a> <= This is implicit, because the server is code-first: it doesn't handle SDL, hence non-executable definitions are directly not supported, and the parser will already throw an error</td>
-        <td><a href="">Lone Anonymous Operation</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/45791105a1b850ee1b07426700c476440d43f4c0/layers/Engine/packages/graphql-parser/src/Spec/Execution/ExecutableDocument.php#L87">Lone Anonymous Operation</a></td>
         <td><a href="">Fields on Correct Type</a></td>
         <td><a href="">Known Argument Names</a></td>
         <td><a href="">Fragments On Composite Types</a></td>
@@ -66,7 +66,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
     </tr>
     <tr>
         <td><a href="">Lone Schema Definition</a> <= Same as above, no SDL is supported, so no "schema" can be passed in the query</td>
-        <td><a href="">Unique Operation Names</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L128">Unique Operation Names</a></td>
         <td><a href="">Overlapping Fields Can Be Merged</a></td>
         <td><a href="">Known Argument Names On Directives</a></td>
         <td><a href="">Known Fragment Names</a></td>
