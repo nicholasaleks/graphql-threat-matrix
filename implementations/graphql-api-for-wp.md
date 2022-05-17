@@ -26,13 +26,13 @@ GraphQL API for Wordpress provides the following features which should be taken 
         <th align="center">Batch Requests</th>
     </tr>
     <tr>
-        <td align="center">✅<br>Enabled by Default</td>
-        <td align="center">⚠️<br>Disabled by Default</td>
         <td align="center">⚠️<br>Disabled by Default</td>
         <td align="center">❌<br>No Support</td>
-        <td align="center">✅<br>Enabled by Default</td>
         <td align="center">❌<br>No Support</td>
+        <td align="center">✅<br>Enabled by Default</td>
+        <td align="center">✅<br>Enabled by Default</td>
         <td align="center">⚠️<br>Disabled by Default</td>
+        <td align="center">✅<br>Enabled by Default</td>
     </tr>
 </table>
 
