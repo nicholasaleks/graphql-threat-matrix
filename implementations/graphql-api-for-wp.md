@@ -67,7 +67,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
     <tr>
         <td><a href="">Lone Schema Definition</a> <= Same as above, no SDL is supported, so no "schema" can be passed in the query</td>
         <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L128">Unique Operation Names</a></td>
-        <td><a href="">Overlapping Fields Can Be Merged</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/21f5820c459800946ad69b530412eded836e4f1e/layers/Engine/packages/graphql-parser/src/Spec/Parser/Parser.php#L660">Unique Input Field Names</a></td>
         <td><a href="">Known Argument Names On Directives</a></td>
         <td><a href="">Known Fragment Names</a></td>
         <td><a href="">Possible Type Extensions</a></td>
@@ -78,7 +78,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
     <tr>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
-        <td><a href="">Scalar Leafs</a></td>
+        <td><a href=""></a></td>
         <td><a href="">Provided Required Arguments</a></td>
         <td><a href="">No Fragment Cycles</a></td>
         <td><a href="">Unique Enum Value Names</a></td>
@@ -89,7 +89,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
     <tr>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
-        <td><a href="">Single Field Subscription</a></td>
+        <td><a href=""></a></td>
         <td><a href="">Unique Argument Names</a></td>
         <td><a href="">No Unused Fragments</a></td>
         <td><a href="">Unique Operation Types</a></td>
@@ -100,7 +100,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
     <tr>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
-        <td><a href="">Unique Input Field Names</a></td>
+        <td><a href=""></a></td>
         <td><a href="">Provided Required Arguments On Directives</a></td>
         <td><a href="">Possible Fragment Spreads</a></td>
         <td><a href="">Unique Type Names</a></td>
