@@ -128,7 +128,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/EnumType/AbstractEnumTypeResolver.php#L97">Enum Value is Not Valid</a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
-        <td><a href=""></a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/graphql-parser/src/ExtendedSpec/Parser/AbstractParser.php#L95">A Directive's Behavior Can Be Modified By At Most 1 Other Directive</a></td>
     </tr>
 </table>
 
