@@ -37,7 +37,7 @@ GraphQL API for Wordpress provides the following features which should be taken 
 </table>
 
 ## Request Validations
-Total Validation Count: **XXX**
+Total Validation Count: **36**
 
 GraphQL API for Wordpress validates the following checks when a query is sent:
 
