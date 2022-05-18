@@ -61,7 +61,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <td><a href="https://github.com/leoloso/PoP/blob/9c05560107a1d7163f494aee742fc2cea5149a39/layers/Engine/packages/component-model/src/ExtendedSpec/Execution/ExecutableDocument.php#L111">Fragments On Composite Types</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/UnionType/AbstractUnionTypeResolver.php#L414">Known Type Names</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/AbstractRelationalTypeResolver.php#L248">Known Directives</a></td>
-        <td><a href="https://github.com/leoloso/PoP/blob/45791105a1b850ee1b07426700c476440d43f4c0/layers/Engine/packages/graphql-parser/src/Spec/Execution/ExecutableDocument.php#L129">No Undefined Variables</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L383">No Undefined Variables</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/a90db0edd3fb7dc85edc434adc3e48fb41c75356/layers/GraphQLAPIForWP/plugins/graphql-api-for-wp/docs/en/release-notes/0.9.md#exposed-the-__schema-introspection-field-in-the-acls">Disable Introspection</a></td>
     </tr>
     <tr>
@@ -90,11 +90,11 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <td><a href=""></a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
-        <td><a href="">Unique Argument Names</a></td>
-        <td><a href="">No Unused Fragments</a></td>
-        <td><a href="">Unique Operation Types</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L667">Unique Argument Names</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L312">No Unused Fragments</a></td>
+        <td><a href="">Unique Type Names</a> <= Same as above, as the definition is via code and not SDL, this issue is impossible to happen</td>
         <td><a href=""></a></td>
-        <td><a href="">Variables Are Input Types</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/45791105a1b850ee1b07426700c476440d43f4c0/layers/Engine/packages/graphql-parser/src/Spec/Execution/ExecutableDocument.php#L129">Variables In Allowed Position</a></td>
         <td><a href=""></a></td>
     </tr>
     <tr>
@@ -103,9 +103,9 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <td><a href=""></a></td>
         <td><a href="">Provided Required Arguments On Directives</a></td>
         <td><a href="">Possible Fragment Spreads</a></td>
-        <td><a href="">Unique Type Names</a></td>
+        <td><a href="">Values Of Correct Type</a></td>
         <td><a href=""></a></td>
-        <td><a href="">Variables In Allowed Position</a></td>
+        <td><a href=""></a></td>
         <td><a href=""></a></td>
     </tr>
     <tr>
@@ -114,7 +114,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <td><a href=""></a></td>
         <td><a href=""></a></td>
         <td><a href="">Unique Fragment Names</a></td>
-        <td><a href="">Values Of Correct Type</a></td>
+        <td><a href=""></a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
