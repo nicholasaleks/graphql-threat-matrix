@@ -106,7 +106,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/Schema/FieldQueryInterpreter.php#L1021">Values Of Correct Type</a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
-        <td><a href=""></a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/215b00a97789b3b543adc2f3380d1ca8f705a2f6/layers/Engine/packages/component-model/src/HelperServices/DataloadHelperService.php#L77"></a>Field Is Not Relational Type (Can't Nest Data)</td>
     </tr>
     <tr>
         <td><a href=""></a></td>
@@ -117,7 +117,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/InputObjectType/AbstractInputObjectTypeResolver.php#L376">Provided Required Inputs On Input Objects</a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
-        <td><a href=""></a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/ObjectType/AbstractObjectTypeResolver.php#L178">No Field Or Directive Was Found With Required Version Constraint</a></td>
     </tr>
     <tr>
         <td><a href=""></a></td>
