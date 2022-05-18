@@ -100,21 +100,10 @@ GraphQL API for WordPress validates the following checks when a query is sent:
     <tr>
         <td><a href=""></a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L112">Operation Provided In Document</a></td>
-        <td><a href=""></a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/215b00a97789b3b543adc2f3380d1ca8f705a2f6/layers/Engine/packages/component-model/src/HelperServices/DataloadHelperService.php#L77">Leaf Field Selections</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/215b00a97789b3b543adc2f3380d1ca8f705a2f6/layers/Engine/packages/component-model/src/Resolvers/FieldOrDirectiveResolverTrait.php#L26">Provided Required Arguments On Directives</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/9c05560107a1d7163f494aee742fc2cea5149a39/layers/Engine/packages/component-model/src/ExtendedSpec/Execution/ExecutableDocument.php#L93">Possible Fragment Spreads</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/InputObjectType/AbstractInputObjectTypeResolver.php#L376">Provided Required Inputs On Input Objects</a></td>
-        <td><a href=""></a></td>
-        <td><a href=""></a></td>
-        <td><a href="https://github.com/leoloso/PoP/blob/215b00a97789b3b543adc2f3380d1ca8f705a2f6/layers/Engine/packages/component-model/src/HelperServices/DataloadHelperService.php#L77">Field Is Not Relational Type (Can't Nest Data)</a></td>
-    </tr>
-    <tr>
-        <td><a href=""></a></td>
-        <td><a href=""></a></td>
-        <td><a href=""></a></td>
-        <td><a href="https://github.com/leoloso/PoP/blob/215b00a97789b3b543adc2f3380d1ca8f705a2f6/layers/Engine/packages/component-model/src/TypeResolvers/InputObjectType/OneofInputObjectTypeResolverTrait.php#L40">@oneOf Input Object Must Receive Exactly 1 Input Value</a> <a href="https://github.com/graphql/graphql-spec/pull/825">(Spec RFC Stage 2)</a></td>
-        <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L261">Unique Fragment Names</a></td>
-        <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/EnumType/AbstractEnumTypeResolver.php#L97">Enum Value is Not Valid</a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/ObjectType/AbstractObjectTypeResolver.php#L178">No Field Or Directive Was Found With Required Version Constraint</a></td>
@@ -123,9 +112,9 @@ GraphQL API for WordPress validates the following checks when a query is sent:
         <td><a href=""></a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
-        <td><a href=""></a></td>
-        <td><a href=""></a></td>
-        <td><a href=""></a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/215b00a97789b3b543adc2f3380d1ca8f705a2f6/layers/Engine/packages/component-model/src/TypeResolvers/InputObjectType/OneofInputObjectTypeResolverTrait.php#L40">@oneOf Input Object Must Receive Exactly 1 Input Value</a> <a href="https://github.com/graphql/graphql-spec/pull/825">(Spec RFC Stage 2)</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L261">Unique Fragment Names</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/EnumType/AbstractEnumTypeResolver.php#L97">Enum Value is Not Valid</a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/graphql-parser/src/ExtendedSpec/Parser/AbstractParser.php#L95">A Directive's Behavior Can Be Modified By At Most 1 Other Directive</a></td>
