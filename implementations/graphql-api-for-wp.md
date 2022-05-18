@@ -54,7 +54,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <th>Misc. Validations</th>
     </tr>
     <tr>
-        <td><a href="https://github.com/leoloso/PoP/blob/21f5820c459800946ad69b530412eded836e4f1e/layers/Engine/packages/graphql-parser/src/Spec/Parser/Parser.php">Executable Definitions</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/21f5820c459800946ad69b530412eded836e4f1e/layers/Engine/packages/graphql-parser/src/Spec/Parser/Parser.php">(Executable Definitions)</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/45791105a1b850ee1b07426700c476440d43f4c0/layers/Engine/packages/graphql-parser/src/Spec/Execution/ExecutableDocument.php#L87">Lone Anonymous Operation</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/ObjectType/AbstractObjectTypeResolver.php#L172">Fields on Correct Type</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/Schema/FieldQueryInterpreter.php#L465">Known Argument Names</a></td>
@@ -65,12 +65,12 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <td><a href="https://github.com/leoloso/PoP/blob/a90db0edd3fb7dc85edc434adc3e48fb41c75356/layers/GraphQLAPIForWP/plugins/graphql-api-for-wp/docs/en/release-notes/0.9.md#exposed-the-__schema-introspection-field-in-the-acls">Disable Introspection</a></td>
     </tr>
     <tr>
-        <td><a href="https://github.com/leoloso/PoP/blob/21f5820c459800946ad69b530412eded836e4f1e/layers/Engine/packages/graphql-parser/src/Spec/Parser/Parser.php">Lone Schema Definition</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/21f5820c459800946ad69b530412eded836e4f1e/layers/Engine/packages/graphql-parser/src/Spec/Parser/Parser.php">(Lone Schema Definition)</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L128">Unique Operation Names</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/21f5820c459800946ad69b530412eded836e4f1e/layers/Engine/packages/graphql-parser/src/Spec/Parser/Parser.php#L660">Unique Input Field Names</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/Schema/FieldQueryInterpreter.php#L465">Known Argument Names On Directives</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L173">Known Fragment Names</a></td>
-        <td><a href="https://github.com/leoloso/PoP/blob/21f5820c459800946ad69b530412eded836e4f1e/layers/Engine/packages/graphql-parser/src/Spec/Parser/Parser.php">Possible Type Extensions</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/21f5820c459800946ad69b530412eded836e4f1e/layers/Engine/packages/graphql-parser/src/Spec/Parser/Parser.php">(Possible Type Extensions)</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/AbstractRelationalTypeResolver.php#L429">Repeatable Directives</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L566">No Unused Variables</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/d80220235a00bdd63e27b6105ef88fd840129a92/layers/Engine/packages/graphql-parser/src/ExtendedSpec/Parser/Ast/ArgumentValue/DynamicVariableReference.php#L60">Dynamic Variable Has Value Exported</a></td>
@@ -112,7 +112,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <td><a href=""></a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
-        <td><a href="https://github.com/leoloso/PoP/blob/21f5820c459800946ad69b530412eded836e4f1e/layers/Engine/packages/graphql-parser/src/Spec/Parser/Parser.php#L660">Unique Input Object Names</a></td>
+        <td><a href=""></a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L261">Unique Fragment Names</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/EnumType/AbstractEnumTypeResolver.php#L97">Enum Value is Not Valid</a></td>
         <td><a href=""></a></td>
