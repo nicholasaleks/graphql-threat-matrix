@@ -79,11 +79,11 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <td><a href=""></a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
-        <td><a href="">Provided Required Arguments</a></td>
-        <td><a href="">No Fragment Cycles</a></td>
-        <td><a href="">Unique Enum Value Names</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/215b00a97789b3b543adc2f3380d1ca8f705a2f6/layers/Engine/packages/component-model/src/Resolvers/FieldOrDirectiveResolverTrait.php#L26">Provided Required Arguments</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L276">No Fragment Cycles</a></td>
+        <td><a href="">Unique Enum Value Names</a> <= Same as above, as the definition is via code and not SDL, this issue is impossible to happen</td>
         <td><a href=""></a></td>
-        <td><a href="">Unique Variable Names</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L357">Unique Variable Names</a></td>
         <td><a href=""></a></td>
     </tr>
     <tr>
