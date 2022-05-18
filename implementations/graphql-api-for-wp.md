@@ -71,7 +71,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/Schema/FieldQueryInterpreter.php#L465">Known Argument Names On Directives</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L173">Known Fragment Names</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/21f5820c459800946ad69b530412eded836e4f1e/layers/Engine/packages/graphql-parser/src/Spec/Parser/Parser.php">Possible Type Extensions</a></td>
-        <td><a href=""></a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/AbstractRelationalTypeResolver.php#L429">Repeatable Directives</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L566">No Unused Variables</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/d80220235a00bdd63e27b6105ef88fd840129a92/layers/Engine/packages/graphql-parser/src/ExtendedSpec/Parser/Ast/ArgumentValue/DynamicVariableReference.php#L60">Dynamic Variable Has Value Exported</a></td>
     </tr>
