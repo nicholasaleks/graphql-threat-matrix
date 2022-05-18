@@ -37,7 +37,7 @@ GraphQL API for WordPress provides the following features which should be taken 
 </table>
 
 ## Request Validations
-Total Validation Count: **36**
+Total Validation Count: **37**
 
 GraphQL API for WordPress validates the following checks when a query is sent:
 
@@ -62,7 +62,7 @@ GraphQL API for WordPress validates the following checks when a query is sent:
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/UnionType/AbstractUnionTypeResolver.php#L414">Known Type Names</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/AbstractRelationalTypeResolver.php#L248">Known Directives</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L383">No Undefined Variables</a></td>
-        <td><a href="https://github.com/leoloso/PoP/blob/a90db0edd3fb7dc85edc434adc3e48fb41c75356/layers/GraphQLAPIForWP/plugins/graphql-api-for-wp/docs/en/release-notes/0.9.md#exposed-the-__schema-introspection-field-in-the-acls">Disable Introspection</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/b3a25ca4c07578aaf4fe0a9cb3e0057593a85e5a/layers/GraphQLAPIForWP/plugins/graphql-api-for-wp/docs/en/modules/single-endpoint.md">Disable Single Endpoint, Obfuscate Endpoint Path</a></td>
     </tr>
     <tr>
         <td><a href="https://github.com/leoloso/PoP/blob/21f5820c459800946ad69b530412eded836e4f1e/layers/Engine/packages/graphql-parser/src/Spec/Parser/Parser.php">(Lone Schema Definition)</a></td>
@@ -73,7 +73,7 @@ GraphQL API for WordPress validates the following checks when a query is sent:
         <td><a href="https://github.com/leoloso/PoP/blob/21f5820c459800946ad69b530412eded836e4f1e/layers/Engine/packages/graphql-parser/src/Spec/Parser/Parser.php">(Possible Type Extensions)</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/AbstractRelationalTypeResolver.php#L429">Repeatable Directives</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L566">No Unused Variables</a></td>
-        <td><a href="https://github.com/leoloso/PoP/blob/d80220235a00bdd63e27b6105ef88fd840129a92/layers/Engine/packages/graphql-parser/src/ExtendedSpec/Parser/Ast/ArgumentValue/DynamicVariableReference.php#L60">Dynamic Variable Has Value Exported</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/a90db0edd3fb7dc85edc434adc3e48fb41c75356/layers/GraphQLAPIForWP/plugins/graphql-api-for-wp/docs/en/release-notes/0.9.md#exposed-the-__schema-introspection-field-in-the-acls">Disable Introspection</a></td>
     </tr>
     <tr>
         <td><a href=""></a></td>
@@ -84,7 +84,7 @@ GraphQL API for WordPress validates the following checks when a query is sent:
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/EnumType/AbstractEnumTypeResolver.php#L262">Unique Enum Value Names</a></td>
         <td><a href=""></a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L357">Unique Variable Names</a></td>
-        <td><a href="https://github.com/leoloso/PoP/blob/215b00a97789b3b543adc2f3380d1ca8f705a2f6/layers/Engine/packages/component-model/src/TypeResolvers/InputObjectType/OneofInputObjectTypeResolverTrait.php#L40">@oneOf Input Object Must Receive Exactly 1 Input Value</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/d80220235a00bdd63e27b6105ef88fd840129a92/layers/Engine/packages/graphql-parser/src/ExtendedSpec/Parser/Ast/ArgumentValue/DynamicVariableReference.php#L60">Dynamic Variable Has Value Exported</a></td>
     </tr>
     <tr>
         <td><a href=""></a></td>
@@ -95,7 +95,7 @@ GraphQL API for WordPress validates the following checks when a query is sent:
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/Schema/FieldQueryInterpreter.php#L1021">Values Of Correct Type</a></td>
         <td><a href=""></a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/45791105a1b850ee1b07426700c476440d43f4c0/layers/Engine/packages/graphql-parser/src/Spec/Execution/ExecutableDocument.php#L129">Variables In Allowed Position</a></td>
-        <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/EnumType/AbstractEnumTypeResolver.php#L127">Enum Value Must Be String</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/215b00a97789b3b543adc2f3380d1ca8f705a2f6/layers/Engine/packages/component-model/src/TypeResolvers/InputObjectType/OneofInputObjectTypeResolverTrait.php#L40">@oneOf Input Object Must Receive Exactly 1 Input Value</a></td>
     </tr>
     <tr>
         <td><a href=""></a></td>
@@ -106,7 +106,7 @@ GraphQL API for WordPress validates the following checks when a query is sent:
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/InputObjectType/AbstractInputObjectTypeResolver.php#L376">Provided Required Inputs On Input Objects</a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
-        <td><a href="https://github.com/leoloso/PoP/blob/215b00a97789b3b543adc2f3380d1ca8f705a2f6/layers/Engine/packages/component-model/src/HelperServices/DataloadHelperService.php#L77">Field Is Not Relational Type (Can't Nest Data)</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/EnumType/AbstractEnumTypeResolver.php#L127">Enum Value Must Be String</a></td>
     </tr>
     <tr>
         <td><a href=""></a></td>
@@ -115,6 +115,17 @@ GraphQL API for WordPress validates the following checks when a query is sent:
         <td><a href=""></a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L261">Unique Fragment Names</a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/EnumType/AbstractEnumTypeResolver.php#L97">Enum Value is Not Valid</a></td>
+        <td><a href=""></a></td>
+        <td><a href=""></a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/215b00a97789b3b543adc2f3380d1ca8f705a2f6/layers/Engine/packages/component-model/src/HelperServices/DataloadHelperService.php#L77">Field Is Not Relational Type (Can't Nest Data)</a></td>
+    </tr>
+    <tr>
+        <td><a href=""></a></td>
+        <td><a href=""></a></td>
+        <td><a href=""></a></td>
+        <td><a href=""></a></td>
+        <td><a href=""></a></td>
+        <td><a href=""></a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
         <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/TypeResolvers/ObjectType/AbstractObjectTypeResolver.php#L178">No Field Or Directive Was Found With Required Version Constraint</a></td>
