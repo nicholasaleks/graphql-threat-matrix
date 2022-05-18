@@ -101,9 +101,9 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <td><a href=""></a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
-        <td><a href="">Provided Required Arguments On Directives</a></td>
-        <td><a href="">Possible Fragment Spreads</a></td>
-        <td><a href="">Values Of Correct Type</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/215b00a97789b3b543adc2f3380d1ca8f705a2f6/layers/Engine/packages/component-model/src/Resolvers/FieldOrDirectiveResolverTrait.php#L26">Provided Required Arguments On Directives</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/9c05560107a1d7163f494aee742fc2cea5149a39/layers/Engine/packages/component-model/src/ExtendedSpec/Execution/ExecutableDocument.php#L93">Possible Fragment Spreads</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/dbba064860c3df23d5731f909902243b74cb1aa1/layers/Engine/packages/component-model/src/Schema/FieldQueryInterpreter.php#L1021">Values Of Correct Type</a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
@@ -113,7 +113,7 @@ GraphQL API for Wordpress validates the following checks when a query is sent:
         <td><a href=""></a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
-        <td><a href="">Unique Fragment Names</a></td>
+        <td><a href="https://github.com/leoloso/PoP/blob/56beb22e72795e7a4ba61f33a1b75ee91e551407/layers/Engine/packages/graphql-parser/src/Spec/Parser/Ast/Document.php#L261">Unique Fragment Names</a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
         <td><a href=""></a></td>
