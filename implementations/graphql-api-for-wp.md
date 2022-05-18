@@ -1,4 +1,4 @@
-# GraphQL API for Wordpress
+# GraphQL API for WordPress
 
 ### Table of Contents
 * [About](#About)
@@ -13,7 +13,7 @@ Source: [https://github.com/leoloso/PoP](https://github.com/leoloso/PoP)\
 Documentation: [https://graphql-api.com/](https://graphql-api.com/)
 
 ## Security Considerations
-GraphQL API for Wordpress provides the following features which should be taken into consideration:
+GraphQL API for WordPress provides the following features which should be taken into consideration:
 
 <table>
     <tr>
@@ -39,7 +39,7 @@ GraphQL API for Wordpress provides the following features which should be taken 
 ## Request Validations
 Total Validation Count: **36**
 
-GraphQL API for Wordpress validates the following checks when a query is sent:
+GraphQL API for WordPress validates the following checks when a query is sent:
 
 <table>
     <tr>
