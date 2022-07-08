@@ -58,6 +58,18 @@ The differences in how GraphQL implementations interpret and conform to the Grap
 </tr>
 
 <tr>
+    <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-api-for-wp.md">graphql-api-for-wp</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-api-for-wp.md#Request-Validations">37</a></td>
+    <td align="center">⚠️</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">⚠️</td>
+    <td align="center">✅</td>
+</tr>
+
+<tr>
     <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/apollo.md">Apollo</a></td>
     <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/apollo.md#Request-Validations">34</a></td>
     <td align="center">✅</td>
