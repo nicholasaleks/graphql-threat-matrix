@@ -3,9 +3,7 @@
 ### Table of Contents
 * [About](#About)
 * [Security Considerations](#Security-Considerations)
-* [Request Validations](#Request-Validations)
-* [Notable Vulnerabilities](#Notable-Vulnerabilties)
-* [Security Disclosure](#Security-Disclosure)
+
 
 ## About
 Language:
@@ -37,7 +35,3 @@ name provides the following features which should be taken into consideration:
 	</tr>
 </table>
 
-
-
-## Security Disclosure
-https://github.com/ohler55/agoo/blob/develop/SECURITY.md
