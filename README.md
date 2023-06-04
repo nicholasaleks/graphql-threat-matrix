@@ -260,6 +260,17 @@ The differences in how GraphQL implementations interpret and conform to the Grap
     <td align="center">⚠️</td>
     <td align="center">❌</td>
 </tr>
+<tr>
+ <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/lighthouse.md">Lighthouse</a></td>
+ <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/lighthouse.md#Request-Validations">1</a></td>
+		<td align="center">✅<br>No Support</td>
+		<td align="center">⚠️<br>No Support</td>
+		<td align="center">⚠️<br>No Support</td>
+		<td align="center">⚠️<br>No Support</td>
+		<td align="center">✅<br>Enabled by Default</td>
+		<td align="center">⚠️<br>Disabled by Default</td>
+		<td align="center">✅<br>No Support</td>
+</tr>
 
 </table>
 
