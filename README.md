@@ -131,7 +131,7 @@ The differences in how GraphQL implementations interpret and conform to the Grap
 
 <tr>
     <td><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-dotnet.md">graphql-dotnet</a></td>
-    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-dotnent.md##Request-Validations">29</a></td>
+    <td align="center"><a href="https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphql-dotnet.md##Request-Validations">29</a></td>
     <td align="center">✅</td>
     <td align="center">⚠️</td>
     <td align="center">⚠️</td>
